@@ -3,5 +3,10 @@ version: 0.1.0
 author: Vostrikov Vitaliy <rasart.pro@gmail.com>
 homepage: https://github.com/Rasarts
 description: project description
+
 dependencies:
   browser: any
+  sass: any
+  
+transformers:
+  - sass
