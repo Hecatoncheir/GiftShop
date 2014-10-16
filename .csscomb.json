@@ -21,5 +21,5 @@
     "unitless-zero": true,
     "vendor-prefix-align": true,
     "strip-spaces": true,
-    "sort-order": [ [ "$variable" ], [ "$include" ], [ "top", "left", "right","bottom" ], [ "margin", "padding" ], [ "border", "background" ] ]
+    "sort-order": [ [ "$variable" ], [ "$include" ], [ "top", "left", "right","bottom" ], [ "margin", "padding" ], ["margin-top","margin-right","margin-bottom","margin-left"], ["padding-top","padding-right","padding-bottom","padding-left"], ["width","height"], ["font", "font-family", "font-style"], [ "border", "background" ] ]
 }
