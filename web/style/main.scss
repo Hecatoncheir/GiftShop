@@ -1,18 +1,14 @@
 // sass --watch web/style/main.scss:web/style/main.css --style compressed
 
 $base-font-size: 16px;
+$page-width: 1280px;
 
 @import "components/h5bp";
 
 @import 'modules/normalize';
 @import 'modules/em';
 @import 'modules/pf_agora_fonts';
-/*@import 'modules/pesticide';*/
+@import 'modules/pesticide'; /* debug mode on? */
 
-
+@import "modules/global";
 @import "components/main_header";
-
-a {
-	text-transform: none;
-	text-decoration: none;
-}
