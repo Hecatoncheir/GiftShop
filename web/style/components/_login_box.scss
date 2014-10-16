@@ -1,0 +1,29 @@
+.login-box {
+  margin-top: -24px;
+  margin-left: 20px;
+  
+  padding-left: 54px;
+  padding-top: 5px;
+
+  width: 207px;
+  height: 65px;
+
+  font-family: pf_agora_sans_pro_italic;
+  font-style: italic;
+
+  background: url('../images/login-box-bg.png') no-repeat left top;
+
+  display: block;
+  float: left;
+
+  a {
+    color: #fff;
+    font-size: em(12px);
+    float: left;
+    clear: left;
+  }
+
+  a:first-child {
+    font-size: em(14px);
+  }
+}

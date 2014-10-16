@@ -1,11 +1,14 @@
 a {
-	text-transform: none;
-	text-decoration: none;
+  text-decoration: none;
+  text-transform: none;
 }
 
 .mid-page {
-	margin: 0 auto;
-	width: $page-width;
+  margin: 0 auto;
+
+  width: $page-width;
 }
 
-.both {clear:both;}
+.both {
+  clear: both;
+}

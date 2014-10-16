@@ -8,6 +8,7 @@
 
 html {
   font-family: sans-serif; /* 1 */
+
   -webkit-text-size-adjust: 100%; /* 2 */
       -ms-text-size-adjust: 100%; /* 2 */
 }
@@ -49,8 +50,9 @@ audio, canvas, progress, video {
  */
 
 audio:not([controls]) {
-  display: none;
   height: 0;
+
+  display: none;
 }
 
 /**
@@ -174,9 +176,10 @@ figure {
  */
 
 hr {
+  height: 0;
+
   -moz-box-sizing: content-box;
        box-sizing: content-box;
-  height: 0;
 }
 
 /**
@@ -193,6 +196,7 @@ pre {
 
 code, kbd, pre, samp {
   font-family: monospace, monospace;
+
   font-size: 1em;
 }
 
@@ -214,8 +218,9 @@ code, kbd, pre, samp {
 button, input, optgroup, select, textarea {
   margin: 0; /* 3 */
 
-  color: inherit; /* 1 */
   font: inherit; /* 2 */
+
+  color: inherit; /* 1 */
 }
 
 /**

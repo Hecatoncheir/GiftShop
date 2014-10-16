@@ -1,0 +1,57 @@
+.main-header {
+  padding-top: 24px;
+
+  font-family: pf_agora_sans_pro_italic;
+  font-style: italic;
+
+  background: url('../images/main-header-bg.png') repeat-x left top;
+
+  min-height: (78 - 24) * 1px;
+  position: relative;
+  z-index: 3;
+
+
+/* Nav */
+
+  nav {
+    a {
+      margin: 0 20px;
+
+      color: #9c857f;
+      display: block;
+      float: left;
+      font-size: em(17px);
+      max-width: 135px;
+      text-align: center;
+    }
+
+    a:hover {
+      color: #9a5e4f;
+    }
+  }
+  
+  
+/* Cart */
+
+  .cart {
+  	font-family: pf_agora_sans_pro_light_italic;
+  	float: right;
+  	position: relative;
+  	color: #9a5e4f;
+  }
+  
+  .cart-lable {
+  	color: #735448;
+  	float: right;
+  	font-size: em(24px);
+  	position: absolute;
+  	top: -10px;
+  	right: 46px;
+  }
+  
+  .cart-icon {
+  	float: right;
+  }
+  
+  .cart-font-bold {font-family: pf_agora_sans_pro_light_italic;}
+}

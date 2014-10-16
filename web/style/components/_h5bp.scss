@@ -125,13 +125,14 @@ textarea[contenteditable] {
   margin: -1px;
   padding: 0;
 
+  width: 1px;
+  height: 1px;
+
   border: 0;
 
   clip: rect(0 0 0 0);
-  height: 1px;
   overflow: hidden;
   position: absolute;
-  width: 1px;
 }
 
 /*
@@ -142,11 +143,12 @@ textarea[contenteditable] {
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   margin: 0;
 
-  clip: auto;
+  width: auto;
   height: auto;
+
+  clip: auto;
   overflow: visible;
   position: static;
-  width: auto;
 }
 
 /*

@@ -1,0 +1,14 @@
+.cover {
+  margin-top: -8px;
+
+  width: 100%;
+
+  background: url('../images/page-cover-bg.jpg') no-repeat left top;
+
+  background-size: cover;
+  display: block;
+  max-height: 437px;
+  min-height: 437px;
+  position: relative;
+  z-index: -1;
+}

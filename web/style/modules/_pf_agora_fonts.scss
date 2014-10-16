@@ -1,6 +1,24 @@
 @font-face {
   font-family: 'pf_agora_sans_pro_italic';
   font-style: italic;
+
   font-weight: normal;
   src: url('../fonts/pf_agora/Italic.ttf');
+}
+
+@font-face {
+  font-family: 'pf_agora_sans_pro_light_italic';
+  font-style: italic;
+
+  font-weight: normal;
+  src: url('../fonts/pf_agora/Light_Italic.ttf');
+}
+
+
+@font-face {
+  font-family: 'pf_agora_sans_pro_bold_italic';
+  font-style: italic;
+
+  font-weight: normal;
+  src: url('../fonts/pf_agora/Bold_Italic.ttf');
 }
