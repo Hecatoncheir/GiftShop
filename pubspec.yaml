@@ -9,4 +9,5 @@ dependencies:
   sass: any
   
 transformers:
-  - sass
+  - sass:
+      style: compact
