@@ -22,7 +22,12 @@
       float: left;
       font-size: em(17px);
       max-width: 135px;
+      width: 90px;
       text-align: center;
+    }
+    
+    a:nth-child(2) {
+    	width: 140px;
     }
 
     a:hover {
@@ -38,6 +43,11 @@
   	float: right;
   	position: relative;
   	color: #9a5e4f;
+  	
+  	p {
+  		width: 230px;
+  		text-align: right;
+  	}
   }
   
   .cart-lable {
@@ -51,6 +61,7 @@
   
   .cart-icon {
   	float: right;
+  	margin-left: 12px;
   }
   
   .cart-font-bold {font-family: pf_agora_sans_pro_light_italic;}
