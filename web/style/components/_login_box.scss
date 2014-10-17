@@ -1,9 +1,9 @@
 .login-box {
   margin-top: -24px;
-  margin-left: 20px;
-  
-  padding-left: 54px;
+  margin-left: 10px;
+
   padding-top: 5px;
+  padding-left: 54px;
 
   width: 147px;
   height: 65px;
@@ -17,10 +17,10 @@
   float: left;
 
   a {
-    color: #fff;
-    font-size: em(12px);
-    float: left;
     clear: left;
+    color: #fff;
+    float: left;
+    font-size: em(12px);
   }
 
   a:first-child {

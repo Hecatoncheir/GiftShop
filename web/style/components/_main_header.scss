@@ -11,58 +11,71 @@
   z-index: 3;
 
 
-/* Nav */
+  /* Nav */
 
   nav {
     a {
       margin: 0 20px;
+
+      width: 90px;
 
       color: #9c857f;
       display: block;
       float: left;
       font-size: em(17px);
       max-width: 135px;
-      width: 90px;
       text-align: center;
     }
-    
+
     a:nth-child(2) {
-    	width: 140px;
+      width: 140px;
     }
 
     a:hover {
       color: #9a5e4f;
     }
   }
-  
-  
-/* Cart */
+
+
+  /* Cart */
 
   .cart {
-  	font-family: pf_agora_sans_pro_light_italic;
-  	float: right;
-  	position: relative;
-  	color: #9a5e4f;
-  	
-  	p {
-  		width: 230px;
-  		text-align: right;
-  	}
+    font-family: pf_agora_sans_pro_light_italic;
+
+    color: #9a5e4f;
+    float: right;
+    position: relative;
+
+    p {
+      width: 240px;
+
+      text-align: right;
+    }
   }
-  
+
   .cart-lable {
-  	color: #735448;
-  	float: right;
-  	font-size: em(24px);
-  	position: absolute;
-  	top: -10px;
-  	right: 46px;
+    top: -10px;
+    right: 46px;
+
+    color: #735448;
+    float: right;
+    font-size: em(24px);
+    position: absolute;
   }
-  
+
   .cart-icon {
-  	float: right;
-  	margin-left: 12px;
+    margin-left: 12px;
+
+    float: right;
   }
   
-  .cart-font-bold {font-family: pf_agora_sans_pro_light_italic;}
+  .r-bold-icon {
+  	float: right;
+  	margin-top: 5px;
+  	margin-left: 3px;
+  }
+
+  .cart-font-bold {
+    font-family: pf_agora_sans_pro_light_italic;
+  }
 }
