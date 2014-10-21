@@ -1,3 +1,5 @@
+/*PF Agora Sans Pro*/
+
 @font-face {
   font-family: 'pf_agora_sans_pro_italic';
   font-style: italic;
@@ -21,4 +23,15 @@
 
   font-weight: normal;
   src: url('../fonts/pf_agora/Bold_Italic.ttf');
+}
+
+
+/*Lobster*/
+
+@font-face {
+  font-family: 'lobster';
+  font-style: italic;
+
+  font-weight: normal;
+  src: url('../fonts/Lobster.ttf');
 }

@@ -8,8 +8,10 @@ $page-width: 1280px;
 @import "components/h5bp";
 
 @import 'modules/normalize';
+/*fonts*/
 @import 'modules/em';
-@import 'modules/pf_agora_fonts';
+@import 'modules/fonts';
+
 @import 'modules/pesticide'; /* debug mode on? */
 
 @import "modules/global";
