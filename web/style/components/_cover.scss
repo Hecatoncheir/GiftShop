@@ -11,4 +11,38 @@
   min-height: 437px;
   position: relative;
   z-index: -1;
+  
+  
+  hgroup {
+  	text-align: center;
+  	top: 55px;
+  	width: 100%;
+  	display: block;
+  	position: absolute;
+  	
+  	h2 {
+			color: #9A5E4F;
+			font-family: pf_agora_sans_pro_italic;
+			font-size: em(21px);
+			font-style: italic;
+			margin-bottom: -50px;
+  	}
+  	
+  	h1 {
+  		color: #5C5C5C;
+  		font-family: lobster;
+  		font-size: em(36px);
+  	}
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }

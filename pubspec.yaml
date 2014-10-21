@@ -10,4 +10,4 @@ dependencies:
   
 transformers:
   - sass:
-      style: compact
+      style: compressed
