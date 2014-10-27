@@ -1,3 +1,5 @@
+@import "../components/search-box";
+
 .cover {
   margin-top: -8px;
 
@@ -10,40 +12,94 @@
   max-height: 437px;
   min-height: 437px;
   position: relative;
-  z-index: -1;
-  
-  
+  z-index: 1;
+
+
   hgroup {
-  	text-align: center;
-  	top: 55px;
-  	width: 100%;
-  	display: block;
-  	position: absolute;
-  	
-  	h2 {
-			color: #9A5E4F;
-			font-family: pf_agora_sans_pro_italic;
-			font-size: em(21px);
-			font-style: italic;
-			margin-bottom: -50px;
-  	}
-  	
-  	h1 {
-  		color: #5C5C5C;
-  		font-family: lobster;
-  		font-size: em(36px);
-  		font-style: italic;
-  	}
+    //  	text-align: center;
+    top: 35px;
+    left: percent(511px);
+
+    display: block;
+    //    top: 85px;
+    position: absolute;
+
+    h2 {
+      margin-bottom: -50px;
+      margin-left: 50px;
+
+      font-family: pf_agora_sans_pro_italic;
+      font-style: italic;
+
+      color: #9a5e4f;
+      font-size: em(21px);
+    }
+
+    h1 {
+      font-family: lobster;
+      font-style: italic;
+
+      color: #5c5c5c;
+      font-size: em(36px);
+    }
+  }
+
+  //  hgroup end
+
+  .bear {
+    left: percent(108px);
+    top:51px;
+
+    width: 296px;
+    height: 316px;
+
+    background: url(../images/bear.png) no-repeat;
+
+    display: block;
+    position: absolute;
+  }
+  
+  .telephone {
+	  color: #9a5e4f;
+	  font-family: 'Lobster';
+	  font-size: em(24px);
+	  position: absolute;
+	  top: 380px;
+	  left: percent(145px);
+  }
+ 
+}
+
+.main-nav {
+	display: block;
+	width: 360px;
+	height: 171px;
+	
+  position: absolute;
+  top:195px;
+  left:percent(370px);
+  
+  
+  nav {
+	  float: left;
+	  
+	  a:first-child {
+		  color:#9a5e4f;
+		  font-family: "Lobster";
+		  font-size: em(22px);
+	  }
+	  
+	  a {
+		  float: left;
+		  clear: left;
+		  color: #794132;
+		  margin: 3px 0px;
+	  }
   
   }
   
   
   
-  
-  
-  
-  
-  
-  
-  
 }
+  
+  

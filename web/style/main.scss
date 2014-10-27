@@ -3,6 +3,7 @@
 $base-font-size: 16px;
 $page-width: 1280px;
 
+@import "modules/functions";
 @import "bourbon/bourbon";
 
 @import "components/h5bp";

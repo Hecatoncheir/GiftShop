@@ -43,9 +43,9 @@
     font-family: pf_agora_sans_pro_light_italic;
 
     color: #9a5e4f;
+    display: block;
     float: right;
     position: relative;
-    display: block;
 
     p {
       width: 240px;
@@ -69,11 +69,12 @@
 
     float: right;
   }
-  
+
   .r-bold-icon {
-  	float: right;
-  	margin-top: 5px;
-  	margin-left: 3px;
+    margin-top: 5px;
+    margin-left: 3px;
+
+    float: right;
   }
 
   .cart-font-bold {

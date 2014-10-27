@@ -1,0 +1,3 @@
+@function percent($px, $base: $page-width) {
+  @return (($px*100) / $base) * 1%;
+}
