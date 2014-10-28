@@ -1,0 +1,60 @@
+.main {
+	position: relative;
+	background:url(../images/main-top-line.png) repeat-x top left;
+	min-height: 18px;
+	display: block;
+	
+	header {
+		background: url(../images/main-header-top-line.png) repeat-x top left;
+		min-height: 18px;
+		position: relative;
+		padding-top: 50px;
+		
+		nav {
+			position: relative;
+			z-index: 5;
+				a {
+					color: #be743c;
+					font-family: 'pf_agora_sans_pro_bold_italic';
+					font-style: italic;
+					width: 166px;
+					display: block;
+					text-align: center;
+					margin: 0 5px;
+					float: left;
+				}
+				
+				a:hover {color: #dc9033}
+				
+				a:nth-child(5){
+					margin-left:68px;
+				}
+				
+				a:nth-child(6){
+					margin-left: 2px;
+				}
+				
+				a:nth-child(7){
+					float: right;
+					margin-right:-5px;
+					margin-left: 2px;
+				}
+				
+		}
+	}
+	
+	.ribbon {
+		display: block;
+		position: absolute;
+		display: block;
+		width: 272px;
+		height: 184px;
+		background: url(../../images/ribbon-bg.png) no-repeat;
+		
+		top:-94px;
+		right:390px;
+		z-index: 3;
+	}
+	
+	
+}
