@@ -73,7 +73,7 @@
   }
 }
 
-.main-nav {
+.main-cover-nav {
   top: 195px;
   left: 45px;
 
@@ -107,6 +107,8 @@
       float: left;
       font-size: em(20px);
     }
+    
+    a:hover {color:#dc9033}
   }
 
   .dashed-line {
