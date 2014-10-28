@@ -22,3 +22,22 @@
 
   background: url("../images/icons/search-icon.jpg") no-repeat;
 }
+
+.date-name-ellipse-icon {
+	width:9px;
+	height: 9px;
+	display: block;
+	background: url('../images/icons/date-name-ellipse-icon.png') no-repeat center center;
+}
+
+.arrow-top-icon {
+	width:10px;
+	height:5px;
+	display: block;
+	background: url('../images/icons/arrow-top-icon.png') no-repeat; 
+}
+
+.arrow-bottom-icon {
+	@extend .arrow-top-icon;
+	background: url('../images/icons/arrow-bottom-icon.png') no-repeat; 
+}

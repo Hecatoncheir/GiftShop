@@ -1,4 +1,5 @@
-@import "../components/search-box";
+@import "../components/search_box";
+@import '../components/cover_calendar';
 
 .cover {
   margin-top: -8px;
@@ -47,8 +48,9 @@
   //  hgroup end
 
   .bear {
-    left: percent(108px);
-    top:51px;
+    /* 		left:108px; */
+    top: 51px;
+    left: percent(50px);
 
     width: 296px;
     height: 316px;
@@ -58,48 +60,85 @@
     display: block;
     position: absolute;
   }
-  
+
   .telephone {
-	  color: #9a5e4f;
-	  font-family: 'Lobster';
-	  font-size: em(24px);
-	  position: absolute;
-	  top: 380px;
-	  left: percent(145px);
+    top: 380px;
+    left: percent(85px);
+
+    font-family: 'Lobster';
+
+    color: #9a5e4f;
+    font-size: em(24px);
+    position: absolute;
   }
- 
 }
 
 .main-nav {
-	display: block;
-	width: 360px;
-	height: 171px;
-	
+  top: 195px;
+  left: 45px;
+
+  margin-left: 370px;
+
+  width: 360px;
+  height: 171px;
+
+  display: block;
   position: absolute;
-  top:195px;
-  left:percent(370px);
-  
-  
+
+
   nav {
-	  float: left;
-	  
-	  a:first-child {
-		  color:#9a5e4f;
-		  font-family: "Lobster";
-		  font-size: em(22px);
-	  }
-	  
-	  a {
-		  float: left;
-		  clear: left;
-		  color: #794132;
-		  margin: 3px 0px;
-	  }
-  
+    margin-left: 40px;
+
+    float: left;
+
+    a:first-child {
+      font-family: "Lobster";
+
+      color: #9a5e4f;
+      font-size: em(22px);
+    }
+
+    a {
+      font-family: 'pf_agora_sans_pro_thin_italic';
+      font-style: italic;
+
+      clear: left;
+      color: #794132;
+      float: left;
+      font-size: em(20px);
+    }
   }
-  
-  
-  
+
+  .dashed-line {
+    padding-bottom: 4px;
+
+    width: 86px;
+
+    background: url(../images/dashed-line.png) no-repeat bottom;
+  }
+
+  nav:first-child {
+    margin-left: 0;
+    a:first-child {
+      @extend .dashed-line;
+
+      background-position: left bottom;
+    }
+  }
+
+  nav:nth-child(2) {
+    a:first-child {
+      @extend .dashed-line;
+
+      background-position: center bottom;
+    }
+  }
+
+  nav:nth-child(3) {
+    a:first-child {
+      @extend .dashed-line;
+
+      background-position: right bottom;
+    }
+  }
 }
-  
-  
