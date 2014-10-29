@@ -5,8 +5,10 @@ a {
 
 .mid-page {
   margin: 0 auto;
-	max-width: 1280px;
+
   width: $page-width;
+
+  max-width: 1280px;
   position: relative !important;
 }
 

@@ -11,13 +11,13 @@
   .date-name {
     top: 94px;
 
+    width: 305px;
+
     font-family: 'Lobster';
-    width:305px;
-    overflow: hidden;
-    
 
     color: #9a5e4f;
     font-size: em(22px);
+    overflow: hidden;
     position: absolute;
   }
 
@@ -84,10 +84,11 @@
     display: block;
     float: right;
     position: absolute;
-    
+
 
     .date-block a {
       margin: 7px 0;
+
       margin-left: 7px;
 
       padding-top: 8px;
@@ -110,43 +111,49 @@
     }
 
     a:first-child {
+      margin-top: 17px;
+
       background: #9a5e4f;
-			opacity: 0.5;
+
       color: #fff;
-      margin-top:17px;
+      opacity: 0.5;
     }
-    
-    a:nth-child(2){
-	    background: none;
-	    color: #7b5d55;
-	    font-size: em(18px);
-	    margin-bottom: 20px;
-	    margin-top: 3px;
-	    cursor: default;
-	    
-	    span{
-		    border-top: 1px solid #8f7366;
-		    margin-left: -8px;
-		    font-size: em(14px);
-	    }
+
+    a:nth-child(2) {
+      margin-top: 3px;
+      margin-bottom: 20px;
+
+      background: none;
+
+      color: #7b5d55;
+      cursor: default;
+      font-size: em(18px);
+
+      span {
+        margin-left: -8px;
+
+        border-top: 1px solid #8f7366;
+        font-size: em(14px);
+      }
     }
-    
+
     .date-prev {
-	    margin: 0 auto;
-	    text-align: center;
-	    i {
-		    margin: 0 auto;
-	    }
+      margin: 0 auto;
+
+      text-align: center;
+      i {
+        margin: 0 auto;
+      }
     }
-    
+
     .date-next {
-    	bottom: -27px;
-    	position: absolute;
-    	left:24px;
-	    i {
-		    margin: 0 auto;
-	    }
+      left: 24px;
+      bottom: -27px;
+
+      position: absolute;
+      i {
+        margin: 0 auto;
+      }
     }
-    
   }
 }

@@ -1,60 +1,90 @@
+@import '../modules/drop_down_menu';
+@import '../modules/spoiler';
+
 .main {
-	position: relative;
-	background:url(../images/main-top-line.png) repeat-x top left;
-	min-height: 18px;
-	display: block;
-	
-	header {
-		background: url(../images/main-header-top-line.png) repeat-x top left;
-		min-height: 18px;
-		position: relative;
-		padding-top: 50px;
-		
-		nav {
-			position: relative;
-			z-index: 5;
-				a {
-					color: #be743c;
-					font-family: 'pf_agora_sans_pro_bold_italic';
-					font-style: italic;
-					width: 166px;
-					display: block;
-					text-align: center;
-					margin: 0 5px;
-					float: left;
-				}
-				
-				a:hover {color: #dc9033}
-				
-				a:nth-child(5){
-					margin-left:68px;
-				}
-				
-				a:nth-child(6){
-					margin-left: 2px;
-				}
-				
-				a:nth-child(7){
-					float: right;
-					margin-right:-5px;
-					margin-left: 2px;
-				}
-				
-		}
-	}
-	
-	.ribbon {
-		display: block;
-		position: absolute;
-		display: block;
-		width: 272px;
-		height: 184px;
-		background: url(../../images/ribbon-bg.png) no-repeat;
-		
-		top:-94px;
-		right:390px;
-		z-index: 3;
-	}
-	
-	
+  background: url(../images/main-top-line.png) repeat-x top left;
+
+  display: block;
+  min-height: 18px;
+  position: relative;
+
+  header {
+    padding-top: 66px;
+    padding-bottom: 60px;
+
+    background: url(../images/main-header-top-line.png) repeat-x top left;
+
+    min-height: 18px;
+    position: relative;
+
+    ul {
+      position: relative;
+      z-index: 5;
+      li {
+        margin: 0 5px;
+
+        width: 166px;
+
+        font-family: 'pf_agora_sans_pro_bold_italic';
+        font-style: italic;
+
+        display: block;
+        float: left;
+        text-align: center;
+      }
+
+      a {
+        color: #be743c;
+      }
+
+      a:hover {
+        color: #dc9033;
+      }
+
+      a:nth-child(3) {
+        margin-right: 0;
+
+        padding-left: 25px;
+      }
+
+      a:nth-child(5) {
+        margin-right: 30px;
+        margin-left: 25px;
+      }
+
+      a:nth-child(6) {
+        margin-left: -10px;
+      }
+
+      a:nth-child(7) {
+        margin-left: -30px;
+
+        float: right;
+      }
+    }
+  }
+
+  .ribbon {
+    top: -94px;
+    right: 390px;
+
+    width: 272px;
+    height: 184px;
+
+    background: url(../../images/ribbon-bg.png) no-repeat;
+
+    display: block;
+    display: block;
+    position: absolute;
+    z-index: 3;
+  }
+
+  li > ul {
+    display: none;
+    position: absolute;
+  }
+
+  li:hover > ul {
+    display: block;
+  }
 }

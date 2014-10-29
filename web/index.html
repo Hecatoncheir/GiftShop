@@ -152,32 +152,91 @@
 <!-- Main Header -->
 				<header>
 					<div class="ribbon"></div>
-					<nav>
-						<a href="#">Уютный дом</a>
-						<a href="#">Работа, учёба</a>
-						<a href="#">Vip-подарки</a>
-						<a href="#">Хобби</a>
-						<a href="#">Аксессуары</a>
-						<a href="#">Призвание</a>
-						<a href="#">Открытки</a>
-					</nav>
+					<ul>
+						<li><a href="#">Уютный дом</a></li>
+						<li><a href="#">Работа, учёба</a></li>
+						<li>
+							<a href="#">Vip-подарки
+								<ul class="drop-menu">
+									<li>
+										<a href="#">
+											Аксесуары для обуви
+											<ul class="drop-sub-menu">
+												<li><a href="#">Мини-книги</a></li>
+											</ul>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Бары настольные
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Бары настольные
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Бары настольные
+											<ul class="drop-sub-menu">
+												<li><a href="#">Мини-книги</a></li>
+												<li><a href="#">Мини-книги</a></li>
+											</ul>
+										</a>
+									</li>
+								</ul>
+							</a>
+						</li>
+						<li><a href="#">Хобби</a></li>
+						<li><a href="#">Аксессуары</a></li>
+						<li><a href="#">Призвание</a></li>
+						<li><a href="#">Открытки</a></li>
+					</ul>
 				</header>
-				
-<!-- Спойлер: Подарки к празднику -->
-				<div class="spoiler">
-					<hr/>
-					<i class="spoiler-arrow-top-icon"></i>
-					<span class="spoiler-name	">Подарки к празднику</span>
-					<i class="spoiler-arrow-top-icon"></i>
-					
-					<div class="spoiler-content">
-						<form name="fast-search">
-						</form>
-					</div>
-				</div>
 				
 			</section>
 		</div>
+		
+		<!-- Спойлер: Подарки к празднику -->
+			<div class="spoiler">
+				<hr/>
+				<section class="mid-page">
+					<span class="spoiler-name">
+						<div class="spoiler-arrow-icon"></div>
+							<span>
+								Подарки к празднику
+							</span>
+						<div class="spoiler-arrow-icon"></div>
+					</span>
+								
+					<div class="spoiler-content">
+						<form name="fast-search" class="fast-search">
+							<select name="select">
+							  <option value="value1" selected>День рождение</option> 
+							  <option value="value2">Value 2</option>
+							  <option value="value3">Value 3</option>
+							</select>
+							<i class="fast-arrow"></i>
+							<div class="fi-icons">
+<!-- 								Мужчине -->
+								<input type="checkbox" id="f1" />
+								<label for="f1"><span></span></label>
+<!-- 								Женщине -->
+								<input type="checkbox" id="f2" />
+								<label for="f2"><span></span></label>
+<!-- 								Мальчику -->
+								<input type="checkbox" id="f3" />
+								<label for="f3"><span></span></label>
+<!-- 								Девочке -->
+								<input type="checkbox" id="f4" />
+								<label for="f4"><span></span></label>
+							</div>
+							
+						</form>
+					</div>
+				</section>
+			</div>
 		
   </body>
   
