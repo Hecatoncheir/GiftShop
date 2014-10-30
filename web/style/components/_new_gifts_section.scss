@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'PF_Medium';
+
+  src: url('../fonts/pf_agora/Medium.ttf');
+}
+
+@font-face {
+  font-family: 'PF_Black_Italic';
+  font-style: italic;
+
+  font-weight: normal;
+  src: url('../fonts/pf_agora/Black_Italic.ttf');
+}
+
+@font-face {
+  font-family: 'PF_Regular';
+
+  font-weight: normal;
+  src: url('../fonts/pf_agora/Regular.ttf');
+}
+
+.gift-r-icon {
+  width: 14px;
+  height: 15px;
+
+  background: url('../images/icons/r-icon.png') no-repeat top left !important;
+
+  background-size: cover;
+  display: block;
+}
+
+.tag-status {
+  top: 0;
+  right: 0;
+
+  width: 73px;
+  height: 42px;
+
+  background: url('../images/icons/gift-status-tag.png') no-repeat left top;
+
+  display: block;
+  position: absolute;
+}
+
+
+.tag-discount {
+  background-position: left top;
+}
+
+
+.tag-new {
+  background-position: center top;
+}
+
+
+.tag-hit {
+  background-position: right top;
+}
+
+
+
+.new-gifts-section {
+
+  clear: both;
+
+  hr {
+    top: 24px;
+
+    border: 1px solid #dbd4d2;
+
+    color: #dbd4d2;
+    position: relative;
+  }
+
+  .new-gifts-section-name {
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    width: auto;
+
+    font-family: 'Lobster';
+
+    color: #7b5d55;
+    display: block;
+    font-size: em(20px);
+    text-align: center;
+
+    span {
+      padding: 2px 10px;
+
+      background: #fff;
+    }
+  }
+  
+  .new-gifts {
+	  margin-left: 80px;
+  }
+
+  .new-gift {
+    margin-right: 52px;
+    margin-bottom: 50px;
+
+    width: 180px;
+    height: auto;
+
+    display: block;
+    float: left;
+  }
+
+  .gift-name {
+    font-family: 'PF_Medium';
+
+    color: #7b777c;
+    font-size: em(14px);
+    display: inline-block;
+    min-height: 35px;
+  }
+
+  .gift-name:hover {
+    color: #dc9033;
+  }
+
+
+  .gift-preview {
+    padding: 2px;
+
+    margin-top: 10px;
+
+    width: 180px;
+    height: 180px;
+
+    border: 1px solid #d0d6e4;
+
+    border-radius: 17px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      margin: -1px;
+
+      width: 100%;
+      height: auto;
+
+      border: 1px solid #d0d6e4;
+
+      border-radius: 17px;
+    }
+  }
+
+  .gift-actions {
+    padding-top: 10px;
+    width: 180px;
+
+    font-family: 'PF_Black_Italic';
+    font-style: italic;
+
+    clear: both;
+    color: #9f705d;
+    display: block;
+    font-size: em(16px);
+
+
+    .gift-r-icon {
+      margin-top: 2px;
+      margin-left: 5px;
+
+      float: right;
+    }
+
+    .gift-cost {
+      float: left;
+      position: relative;
+      padding-left: 10px;
+    }
+    
+    .no-have-old-cost {
+	    margin-top: 12px;
+    }
+
+    .gift-cost-old {
+      top: 5px;
+      right: -20px;
+
+      font-size: em(13px);
+      position: absolute;
+      hr {
+        top: 15px;
+
+        border: 1px solid #b42916;
+
+        display: block;
+        position: relative;
+        -webkit-transform: rotate(-9deg);
+            -ms-transform: rotate(-9deg);
+                transform: rotate(-9deg);
+      }
+    }
+
+    .gift-action-buy {
+      margin-right: -10px;
+
+      width: 87px;
+      height: 44px;
+
+      border: none;
+      background: url(../images/icons/buy-button.png) no-repeat top left;
+
+      display: block;
+      float: right;
+    }
+
+    .gift-action-buy:hover {
+      background-position: bottom left;
+    }
+  }
+  
+   .button-more {
+	  clear: both;
+	  color: #fff;
+	  text-align: center;
+	  padding: 23px 0 0 0;
+	  font-family: 'PF_Regular';
+	  font-family: em(16px);
+	  display: block;
+		background: url('../images/icons/button-more.png') no-repeat top center;
+		width: 66px;
+		height: 43px;
+		margin: 0 auto;
+		position: relative;
+		top: -30px;
+  }
+  
+  	.button-more:hover {background-position: center bottom;}
+  
+}
