@@ -1,11 +1,22 @@
 .spoiler {
+	padding: 0;
+	clear: both;
   hr {
     border: 1px solid #dbd4d2;
   }
   
   .elefan-top {
 	  position: absolute;
-	  top: 20px;
+	  top: 35px;
 	  right: 30px;
   }
+}
+
+.whose-gift {
+	clear: both;
+	margin-top: 40px;
+	
+	nav a {
+		color: #5c5c5c;
+	}
 }
