@@ -1,0 +1,140 @@
+.spoiler-name {
+  margin: 0 auto;
+
+  margin-top: -21px;
+
+  width: auto;
+
+  font-family: 'Lobster';
+
+  color: #7b5d55;
+  display: block;
+  text-align: center;
+
+  span {
+    padding: 3px 15px;
+
+    background: #fff;
+  }
+
+  .spoiler-arrow-icon {
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+    z-index: 7;
+  }
+  .spoiler-arrow-icon:first-child {
+    margin-right: -6px;
+    margin-bottom: -2px;
+  }
+
+  .spoiler-arrow-icon:last-child {
+    margin-bottom: -2px;
+    margin-left: -6px;
+  }
+}
+
+.fast-search {
+  margin-top: 20px;
+  margin-left: 66px;
+  select {
+    margin-right: 10px;
+
+    padding-top: 2px;
+    padding-left: 20px;
+
+    width: 178px;
+    height: 37px;
+
+    font-family: 'pf_agora_sans_pro_regular';
+
+    border: none;
+    background: url(../../images/fast_search/bg.png) no-repeat;
+
+    -webkit-appearance: none;
+            appearance: none;
+    color: #7b777c;
+    display: block;
+    float: left;
+    outline: none;
+  }
+
+  .fast-arrow {
+    margin: 10px 10px 0 12px;
+
+    float: left;
+  }
+  
+  .fast-submit {
+      width: 97px;
+      height: 38px;
+
+      background: url(../images/fast_search/submit.png) no-repeat left top;
+
+      display: block;
+      
+      border: none;
+      outline: none;
+    }
+
+    .fast-submit:hover {
+      background-position: -1px bottom;
+    }
+
+  // Radio Button
+  input[type='radio'] {
+    display: none;
+  }
+
+  .fi-icons {
+    float: left;
+
+    label {
+      right: 10px;
+
+      margin-left: 7px;
+
+      width: 53px;
+      height: 39px;
+
+      background: url(../images/fast_search/icons.png) no-repeat top left;
+
+      cursor: pointer;
+      display: block;
+      float: left;
+    }
+
+    .f1 {
+      background-position: 0 0;
+    }
+
+    input[type="radio"]:checked + .f1 {
+      background-position: 0 -39px !important;
+    }
+
+    .f2 {
+      background-position: -53px 0;
+    }
+
+    input[type="radio"]:checked + .f2 {
+      background-position: -53px -39px !important;
+    }
+
+    .f3 {
+      background-position: -53*2px 0;
+    }
+
+    input[type="radio"]:checked + .f3 {
+      background-position: -53*2px -39px !important;
+    }
+
+    .f4 {
+      background-position: -53*3px 0;
+    }
+
+    input[type="radio"]:checked + .f4 {
+      background-position: -53*3px -39px !important;
+    }
+  }
+}

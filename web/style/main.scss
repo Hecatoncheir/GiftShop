@@ -18,6 +18,8 @@ $page-width: 1280px;
 
 @import "modules/global";
 @import "modules/icons";
+@import 'modules/fast_search';
+
 @import "components/main_header";
 @import "components/login_box";
 @import "components/cover";

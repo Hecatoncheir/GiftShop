@@ -47,6 +47,24 @@
   background: url('../images/icons/arrow-bottom-icon.png') no-repeat;
 }
 
+.spoiler-arrow-icon {
+  width: 15px;
+  height: 15px;
+
+  background: url(../images/spoiler_arrow.png) no-repeat;
+
+  display: inline-block;
+}
+
+.fast-arrow {
+  width: 7px;
+  height: 14px;
+
+  background: url(../images/fast_search/arrow.png) no-repeat;
+
+  display: block;
+}
+
 // Социальные иконки
 .soc-icons {
   margin: 0 4px 0 4px;
