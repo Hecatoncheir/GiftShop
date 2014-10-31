@@ -1,0 +1,43 @@
+.cart-icon {
+  width: 34px;
+  height: 31px;
+
+  background: url('../images/icons/cart-icon.png') no-repeat left top;
+
+  display: block;
+}
+
+.r-bold-icon {
+  width: 8px;
+  height: 10px;
+
+  background: url('../images/icons/r-bold-icon.png') no-repeat left top;
+
+  display: block;
+}
+
+.search-icon {
+  width: 21px;
+  height: 21px;
+
+  background: url("../images/icons/search-icon.jpg") no-repeat;
+}
+
+.date-name-ellipse-icon {
+	width:9px;
+	height: 9px;
+	display: block;
+	background: url('../images/icons/date-name-ellipse-icon.png') no-repeat center center;
+}
+
+.arrow-top-icon {
+	width:10px;
+	height:5px;
+	display: block;
+	background: url('../images/icons/arrow-top-icon.png') no-repeat; 
+}
+
+.arrow-bottom-icon {
+	@extend .arrow-top-icon;
+	background: url('../images/icons/arrow-bottom-icon.png') no-repeat; 
+} 
