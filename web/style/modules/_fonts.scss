@@ -1,5 +1,6 @@
 /*PF Agora Sans Pro*/
 
+//Italic
 @font-face {
   font-family: 'pf_agora_sans_pro_italic';
   font-style: italic;
@@ -8,6 +9,8 @@
   src: url('../fonts/pf_agora/Italic.ttf');
 }
 
+
+//Light Italic
 @font-face {
   font-family: 'pf_agora_sans_pro_light_italic';
   font-style: italic;
@@ -17,6 +20,7 @@
 }
 
 
+//Bold Italic
 @font-face {
   font-family: 'pf_agora_sans_pro_bold_italic';
   font-style: italic;
@@ -25,6 +29,8 @@
   src: url('../fonts/pf_agora/Bold_Italic.ttf');
 }
 
+
+//Thin Italic
 @font-face {
   font-family: 'pf_agora_sans_pro_thin_italic';
   font-style: italic;
@@ -36,7 +42,6 @@
 
 
 /*Lobster*/
-
 @font-face {
   font-family: 'lobster';
   font-style: italic;

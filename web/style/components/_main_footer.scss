@@ -1,16 +1,16 @@
-@font-face {
-	font-family: 'PF_Italic';
-	font-style: italic;
-	font-weight: normal;
-	src: url('../fonts/pf_agora/Italic.ttf');
-}
+//@font-face {
+//  font-family: 'PF_Italic';
+//  font-style: italic;
+//  font-weight: normal;
+//  src: url('../fonts/pf_agora/Italic.ttf');
+//}
 
-@font-face {
-	font-family: 'PF_Thin_Italic';
-	font-style: italic;
-	font-weight: normal;
-	src: url('../fonts/pf_agora/Thin_Italic.ttf');
-}
+//@font-face {
+//  font-family: 'PF_Thin_Italic';
+//  font-style: italic;
+//  font-weight: normal;
+//  src: url('../fonts/pf_agora/Thin_Italic.ttf');
+//}
 
 .main-footer {
 	clear: both;
@@ -31,7 +31,7 @@
 		color: #7d6d68;
 		font-style: italic;
 		
-		font-family: 'PF_Italic';
+		font-family: 'pf_agora_sans_pro_italic';
 		margin-right: 74px;
 		text-align: justify;
 		line-height: 19px;
@@ -55,7 +55,7 @@ footer {
 	background: #f5f6fa;
 	position: relative;
 	.mid-page {
-		background: url(../../images/footer_bg.jpg) no-repeat;
+		background: url(../images/footer_bg.jpg) no-repeat;
 		display: block;
 		width: 1280px;
 		height: 162px;
@@ -63,7 +63,7 @@ footer {
 	
 	.footer-bear {
 		position: absolute;
-		background: url(../../images/footer_bear.png) no-repeat;
+		background: url(../images/footer_bear.png) no-repeat;
 		display: block;
 		width: 450px;
 		height: 285px;
@@ -73,7 +73,7 @@ footer {
 	
 	p {
 		text-align: center;
-		font-family: 'PF_Thin_Italic';
+		font-family: 'pf_agora_sans_pro_thin_italic';
 		font-size: em(14px);
 		margin: 0;
 		padding: 0;
@@ -84,7 +84,7 @@ footer {
 	
 	.footer-elefan {
 		position: absolute;
-		background: url(../../images/footer_elefan.png) no-repeat;
+		background: url(../images/footer_elefan.png) no-repeat;
 		display: block;
 		width: 296px;
 		height: 145px;
