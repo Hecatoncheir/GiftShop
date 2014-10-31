@@ -24,20 +24,78 @@
 }
 
 .date-name-ellipse-icon {
-	width:9px;
-	height: 9px;
-	display: block;
-	background: url('../images/icons/date-name-ellipse-icon.png') no-repeat center center;
+  width: 9px;
+  height: 9px;
+
+  background: url('../images/icons/date-name-ellipse-icon.png') no-repeat center center;
+
+  display: block;
 }
 
 .arrow-top-icon {
-	width:10px;
-	height:5px;
-	display: block;
-	background: url('../images/icons/arrow-top-icon.png') no-repeat; 
+  width: 10px;
+  height: 5px;
+
+  background: url('../images/icons/arrow-top-icon.png') no-repeat;
+
+  display: block;
 }
 
 .arrow-bottom-icon {
-	@extend .arrow-top-icon;
-	background: url('../images/icons/arrow-bottom-icon.png') no-repeat; 
-} 
+  @extend .arrow-top-icon;
+
+  background: url('../images/icons/arrow-bottom-icon.png') no-repeat;
+}
+
+// Социальные иконки
+.soc-icons {
+  margin: 0 4px 0 4px;
+
+  width: 20px;
+  height: 20px;
+
+  background: url(../images/icons/soc-icons.png) no-repeat left top;
+
+  display: block;
+  float: left;
+}
+
+.vk {
+  background-position: 0 0;
+}
+
+.vk:hover {
+  background-position: 0 -20px;
+}
+
+.ok {
+  background-position: -20px 0;
+}
+
+.ok:hover {
+  background-position: -20px -20px;
+}
+
+.fb {
+  background-position: -40px 0;
+}
+
+.fb:hover {
+  background-position: -40px -20px;
+}
+
+.in {
+  background-position: -60px 0;
+}
+
+.in:hover {
+  background-position: -60px -20px;
+}
+
+.gp {
+  background-position: -80px 0;
+}
+
+.gp:hover {
+  background-position: -80px -20px;
+}

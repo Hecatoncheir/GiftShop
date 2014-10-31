@@ -60,7 +60,6 @@
 
 
 .new-gifts-section {
-
   clear: both;
 
   hr {
@@ -74,6 +73,7 @@
 
   .new-gifts-section-name {
     margin: 0 auto;
+
     margin-bottom: 40px;
 
     width: auto;
@@ -91,9 +91,9 @@
       background: #fff;
     }
   }
-  
+
   .new-gifts {
-	  margin-left: 80px;
+    margin-left: 80px;
   }
 
   .new-gift {
@@ -111,8 +111,8 @@
     font-family: 'PF_Medium';
 
     color: #7b777c;
-    font-size: em(14px);
     display: inline-block;
+    font-size: em(14px);
     min-height: 35px;
   }
 
@@ -150,6 +150,7 @@
 
   .gift-actions {
     padding-top: 10px;
+
     width: 180px;
 
     font-family: 'PF_Black_Italic';
@@ -169,13 +170,14 @@
     }
 
     .gift-cost {
+      padding-left: 10px;
+
       float: left;
       position: relative;
-      padding-left: 10px;
     }
-    
+
     .no-have-old-cost {
-	    margin-top: 12px;
+      margin-top: 12px;
     }
 
     .gift-cost-old {
@@ -214,23 +216,29 @@
       background-position: bottom left;
     }
   }
-  
-   .button-more {
-	  clear: both;
-	  color: #fff;
-	  text-align: center;
-	  padding: 23px 0 0 0;
-	  font-family: 'PF_Regular';
-	  font-family: em(16px);
-	  display: block;
-		background: url('../images/icons/button-more.png') no-repeat top center;
-		width: 66px;
-		height: 43px;
-		margin: 0 auto;
-		position: relative;
-		top: -30px;
+
+  .button-more {
+    top: -30px;
+
+    margin: 0 auto;
+    padding: 23px 0 0 0;
+
+    width: 66px;
+    height: 43px;
+
+    font-family: 'PF_Regular';
+    font-family: em(16px);
+
+    background: url('../images/icons/button-more.png') no-repeat top center;
+
+    clear: both;
+    color: #fff;
+    display: block;
+    position: relative;
+    text-align: center;
   }
-  
-  	.button-more:hover {background-position: center bottom;}
-  
+
+  .button-more:hover {
+    background-position: center bottom;
+  }
 }
