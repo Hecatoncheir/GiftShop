@@ -15,12 +15,27 @@
 .whose-gift {
 	clear: both;
 	margin-top: 40px;
+
+	nav {
+		margin-left: 60px;
+		-moz-column-count: 6;
+    -webkit-column-count: 6;
+    column-count: 6;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    line-height: 15px;
+	}
 	
 	nav a {
 		color: #5c5c5c;
     font-style:italic;
     margin-bottom:10px;
-    float:left;
-    clear:left;
+    display: inline-box;
+    float: left;
+    clear: left;
+    font-family: 'pf_agora_sans_pro_thin_italic';
+	}
+	nav a:hover {
+		color: #c27d49;
 	}
 }
