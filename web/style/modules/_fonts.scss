@@ -17,6 +17,22 @@
   src: url('../fonts/pf_agora/Italic.ttf');
 }
 
+//Medium
+@font-face {
+  font-family: 'pf_agora_sans_pro_Medium';
+
+  font-weight: normal;
+  src: url('../fonts/pf_agora/Medium.ttf');
+}
+
+//Medium Italic
+@font-face {
+  font-family: 'pf_agora_sans_pro_Medium_Italick';
+  font-style: italic;
+
+  font-weight: normal;
+  src: url('../fonts/pf_agora/Medium_Italick.ttf');
+}
 
 //Light Italic
 @font-face {

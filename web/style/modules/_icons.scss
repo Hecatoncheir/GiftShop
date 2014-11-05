@@ -54,6 +54,7 @@
   background: url(../images/spoiler_arrow.png) no-repeat;
 
   display: inline-block;
+  z-index: 2 !important;
 }
 
 .fast-arrow {
@@ -121,8 +122,10 @@
 
 // Elefan Top
 .elefan-top {
-	display: block;
-	background: url(../../images/elefan-top.jpg) no-repeat;
-	width: 227px;
-	height: 72px;
+  width: 227px;
+  height: 72px;
+
+  background: url(../../images/elefan-top.jpg) no-repeat;
+
+  display: block;
 }

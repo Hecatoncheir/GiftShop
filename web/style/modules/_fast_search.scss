@@ -65,22 +65,21 @@
 
     float: left;
   }
-  
+
   .fast-submit {
-      width: 97px;
-      height: 38px;
+    width: 97px;
+    height: 38px;
 
-      background: url(../images/fast_search/submit.png) no-repeat left top;
+    border: none;
+    background: url(../images/fast_search/submit.png) no-repeat left top;
 
-      display: block;
-      
-      border: none;
-      outline: none;
-    }
+    display: block;
+    outline: none;
+  }
 
-    .fast-submit:hover {
-      background-position: -1px bottom;
-    }
+  .fast-submit:hover {
+    background-position: -1px bottom;
+  }
 
   // Radio Button
   input[type='radio'] {

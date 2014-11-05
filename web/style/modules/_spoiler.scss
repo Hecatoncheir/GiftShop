@@ -1,41 +1,47 @@
 .spoiler {
-	padding: 0;
-	clear: both;
+  padding: 0;
+
+  clear: both;
   hr {
     border: 1px solid #dbd4d2;
   }
-  
+
   .elefan-top {
-	  position: absolute;
-	  top: 35px;
-	  right: 30px;
+    top: 35px;
+    right: 30px;
+
+    position: absolute;
   }
 }
 
 .whose-gift {
-	clear: both;
-	margin-top: 40px;
+  margin-top: 40px;
 
-	nav {
-		margin-left: 60px;
-		-moz-column-count: 6;
-    -webkit-column-count: 6;
-    column-count: 6;
-    margin-bottom: 30px;
+  clear: both;
+
+  nav {
     margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+
+    -webkit-column-count: 6;
+       -moz-column-count: 6;
+            column-count: 6;
     line-height: 15px;
-	}
-	
-	nav a {
-		color: #5c5c5c;
-    font-style:italic;
-    margin-bottom:10px;
+  }
+
+  nav a {
+    margin-bottom: 10px;
+
+    font-family: 'pf_agora_sans_pro_thin_italic';
+    font-style: italic;
+
+    clear: left;
+    color: #5c5c5c;
     display: inline-box;
     float: left;
-    clear: left;
-    font-family: 'pf_agora_sans_pro_thin_italic';
-	}
-	nav a:hover {
-		color: #c27d49;
-	}
+  }
+  nav a:hover {
+    color: #c27d49;
+  }
 }
