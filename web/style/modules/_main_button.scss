@@ -1,0 +1,35 @@
+@import "../bourbon/bourbon";
+
+.button-border {
+	background-color: #ffffff; // Old browsers
+	@include background-image(linear-gradient(top,  #ffffff 0%,#f1eaea 3%,#e8e1df 84%,#ede8e8 90%,#b6acac 99%));
+	border-radius: 9px;
+	box-shadow: 0.5px 0.9px 1px #FFF;
+	min-height: 24px;
+	width: auto;
+	display: inline-block;
+	border: 2px solid #b0a6a6;
+	cursor: pointer;
+	position: relative;
+	z-index: 7;
+}
+
+.button-inner {
+	min-height: 24px;
+	border-radius: 9px;
+	box-shadow: 0 1px 1px #5B4848;
+	display: block;
+	width: 100%;
+}
+
+.button-text {
+	color: #B59C93;
+	font-family: "pf_agora_sans_pro_Medium_Italick";
+	font-size: 14px;
+	font-style: italic;
+	padding: 0 5px;
+	font-weight: 500;
+	font-style: italic;
+	text-shadow: 0.5px 0.9px 1px #FFF;
+	display: inline-block;
+}

@@ -66,7 +66,8 @@
   display: block;
 }
 
-// Социальные иконки
+
+
 .soc-icons {
   margin: 0 4px 0 4px;
 
@@ -128,4 +129,13 @@
   background: url(../../images/elefan-top.jpg) no-repeat;
 
   display: block;
+}
+
+.breadcrumbs-circle {
+	content: '';
+	display: block;
+	background: url(../images/breadcrumbs-circle.png) no-repeat;
+	float: left;
+	width: 10px;
+	height: 10px;
 }
