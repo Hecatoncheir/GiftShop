@@ -1,6 +1,6 @@
 @import 'modules/breadcrumbs';
 @import 'modules/main_button';
-
+@import 'modules/category';
 
 .main-content {
 	background: #f3eeed;
@@ -10,6 +10,13 @@
 	.fast-search-section {
 		margin-top:-10px;
 		padding-top: 0;
+		margin-left: -30px;
+	}
+	
+	.content {
+		clear: both;
+		margin-top:50px;
+		margin-left: 30px;
 	}
 	
 }
