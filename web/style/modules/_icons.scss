@@ -66,6 +66,12 @@
   display: block;
 }
 
+.fast-arrow-inner {
+  @extend .fast-arrow;
+
+  background: url(../images/fast_search/arrow_brown.png) no-repeat !important;
+}
+
 
 
 .soc-icons {
@@ -132,10 +138,12 @@
 }
 
 .breadcrumbs-circle {
-	content: '';
-	display: block;
-	background: url(../images/breadcrumbs-circle.png) no-repeat;
-	float: left;
-	width: 10px;
-	height: 10px;
+  width: 10px;
+  height: 10px;
+
+  background: url(../images/breadcrumbs-circle.png) no-repeat;
+
+  content: '';
+  display: block;
+  float: left;
 }

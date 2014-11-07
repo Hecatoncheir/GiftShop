@@ -1,2 +1,15 @@
 @import 'modules/breadcrumbs';
 @import 'modules/main_button';
+
+
+.main-content {
+	background: #f3eeed;
+	clear: both;
+	padding-top: 1px;
+	
+	.fast-search-section {
+		margin-top:-10px;
+		padding-top: 0;
+	}
+	
+}

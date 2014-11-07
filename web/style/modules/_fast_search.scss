@@ -60,6 +60,7 @@
     outline: none;
   }
 
+
   .fast-arrow {
     margin: 10px 10px 0 12px;
 
@@ -104,6 +105,7 @@
       float: left;
     }
 
+
     .f1 {
       background-position: 0 0;
     }
@@ -135,5 +137,70 @@
     input[type="radio"]:checked + .f4 {
       background-position: -53*3px -39px !important;
     }
+  }
+}
+
+.fast-search-inner {
+  select {
+    background: url(../../images/fast_search/bg_brown.png) no-repeat !important;
+  }
+}
+
+.fast-submit-inner {
+  background: url(../../images/fast_search/submit_brown.png) no-repeat top center !important;
+}
+
+.fast-submit-inner:hover {
+  background-position: -1px bottom !important;
+}
+
+.fi-icons-inner {
+  float: left;
+
+  label {
+    right: 10px;
+
+    margin-left: 7px;
+
+    width: 53px;
+    height: 39px;
+
+    background: url(../images/fast_search/icons_brown.png) no-repeat top left;
+
+    cursor: pointer;
+    display: block;
+    float: left;
+  }
+
+  .f1 {
+    background-position: 0 0;
+  }
+
+  input[type="radio"]:checked + .f1 {
+    background-position: 0 -39px !important;
+  }
+
+  .f2 {
+    background-position: -53px 0;
+  }
+
+  input[type="radio"]:checked + .f2 {
+    background-position: -53px -39px !important;
+  }
+
+  .f3 {
+    background-position: -53*2px 0;
+  }
+
+  input[type="radio"]:checked + .f3 {
+    background-position: -53*2px -39px !important;
+  }
+
+  .f4 {
+    background-position: -53*3px 0;
+  }
+
+  input[type="radio"]:checked + .f4 {
+    background-position: -53*3px -39px !important;
   }
 }
