@@ -2,6 +2,8 @@
 @import 'modules/main_button';
 @import 'modules/category';
 
+@import 'components/filter';
+
 .main-content {
 	background: #f3eeed;
 	clear: both;
@@ -11,6 +13,10 @@
 		margin-top:-10px;
 		padding-top: 0;
 		margin-left: -30px;
+	}
+	
+	.main-aside {
+		float: left;
 	}
 	
 	.content {
