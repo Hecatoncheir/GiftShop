@@ -19,4 +19,43 @@
 		margin-left: 30px;
 	}
 	
+	.content-items {
+		float: left; 
+// 		width: 925px;
+		width: 1000px;
+	}
+	
+	.items {
+		float:left;
+		clear: none !important;
+		// max-width: 925px;
+		width: 100%;
+	}
+	
+	.new-gifts {
+		float: left;
+		margin-left: 50px;
+	}
+	
+	.new-gift {
+		margin-right: 55px;
+	}
+	
+	.gift-action-buy {
+		background: url(../images/icons/buy-button-brown.png) no-repeat top left !important;
+	}
+	
+	.gift-action-buy:hover {
+		background-position: center bottom !important;
+	}
+	
+/*
+	.new-gift:nth-child(4n){
+		margin-right: 0;
+	}
+	.new-gift:nth-child(5n){
+		margin-left: 30px;
+	}
+*/
+
 }
