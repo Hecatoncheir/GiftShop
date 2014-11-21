@@ -53,7 +53,9 @@
     background: url(../images/fast_search/bg.png) no-repeat !important;
 
     -webkit-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
     color: #7b777c;
     display: block;
     float: left;

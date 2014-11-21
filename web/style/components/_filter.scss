@@ -1,3 +1,13 @@
+//Extends
+.thumb {
+	width:18px;
+	height: 18px;
+	display: block;
+	background: url("../../images/filter_range_type.jpg") no-repeat;
+}
+
+
+
 .filters {
 	clear: both;
 	
@@ -36,16 +46,35 @@
 		border-radius: 16px;
 		min-height: 10px;
 	}
-	
+
 	.filter-range {
 		text-align: center;
+		padding-top: 10px;
 		.filter-name {
 			color: #A27666;
-			font-family: "pf_agora_sans_pro_thin_italic";
+			font-family: "pf_agora_sans_pro_Medium_Italic_italic";
 			font-size: em(20px);
 			font-weight: 500;
 			font-style: italic;
 		}
+
+		input {
+			-webkit-appearance: none;
+			width: 232px;
+			min-height: 43px;
+			margin-left: 8px;
+			background: url(../../images/filter_range_bg.jpg) repeat-x;
+			display: block;
+			outline: none;
+		}
+
+		input::-webkit-slider-thumb {
+			@extend .thumb;
+		}
+
+		input::-moz-range-thumb {
+			@extend .thumb;
+		}
 	}
-	
+
 }
