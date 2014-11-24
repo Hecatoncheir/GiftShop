@@ -1,1 +1,38 @@
 @import 'modules/breadcrumbs';
+@import 'modules/pagination';
+
+.breadcrumbs {
+  hgroup {
+    margin-left: 0;
+  }
+}
+
+.full-item {
+  clear: both;
+
+
+  h4 {
+    color: #c58250;
+    font-size: em(24px) !important;
+    font-family: pf_agora_sans_pro_Medium_Italic;
+    float: left;
+    width: auto;
+    display: inline-block;
+  }
+}
+
+.full-item-navigation {
+  width: 310px !important;
+  text-align: right !important;
+  float: right;
+  padding-top: 129px;
+}
+
+.page-top {
+  position: relative;
+  top: -50px;
+}
+
+.pagination .pagination-right {
+  top: 36px !important;
+}
