@@ -1,80 +1,160 @@
 //Extends
 .thumb {
-	width:18px;
-	height: 18px;
-	display: block;
-	background: url("../../images/filter_range_type.jpg") no-repeat;
+  width: 18px;
+  height: 18px;
+
+  background: url("../../images/filter_range_type.jpg") no-repeat;
+
+  display: block;
 }
 
 
 
 .filters {
-	clear: both;
-	
-	header {
-		color: #C3804F;
-		font-family: "pf_agora_sans_pro_Medium";
-		font-size: 10px;
-		font-weight: 500;
-		text-transform: uppercase;
-		
-		span {float:left}
-		.category-name {
-			color: #8B716A;
-			font-family: "pf_agora_sans_pro_Medium_Italic";
-			font-size: 14px;
-			font-weight: 500;
-			font-style: italic;
-			text-transform: none;
-			position: relative;
-			top: -4px;
-		}
-		
-	}
-		
-	.inner-circle {
-		float:left;
-		margin: 0 4px;
-		position: relative;
-		top: 1px;
-	}
-	
-	.filter {
-		clear: both;
-		margin-top: 5px;
-		border: 3px solid #fff;
-		border-radius: 16px;
-		min-height: 10px;
-	}
+  clear: both;
 
-	.filter-range {
-		text-align: center;
-		padding-top: 10px;
-		.filter-name {
-			color: #A27666;
-			font-family: "pf_agora_sans_pro_Medium_Italic_italic";
-			font-size: em(20px);
-			font-weight: 500;
-			font-style: italic;
-		}
+  header {
+    font-family: "pf_agora_sans_pro_Medium";
 
-		input {
-			-webkit-appearance: none;
-			width: 232px;
-			min-height: 43px;
-			margin-left: 8px;
-			background: url(../../images/filter_range_bg.jpg) repeat-x;
-			display: block;
-			outline: none;
-		}
+    color: #c3804f;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
 
-		input::-webkit-slider-thumb {
-			@extend .thumb;
-		}
+    span {
+      float: left;
+    }
+    .category-name {
+      top: -4px;
 
-		input::-moz-range-thumb {
-			@extend .thumb;
-		}
-	}
+      font-family: "pf_agora_sans_pro_Medium_Italic";
+      font-style: italic;
 
+      color: #8b716a;
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      text-transform: none;
+    }
+  }
+
+  .inner-circle {
+    top: 1px;
+
+    margin: 0 4px;
+
+    float: left;
+    position: relative;
+  }
+
+  .filter {
+    margin-top: 5px;
+
+    border: 3px solid #fff;
+
+    border-radius: 16px;
+    clear: both;
+    min-height: 10px;
+  }
+
+  .filter-range {
+    padding-top: 10px;
+
+    text-align: center;
+    .filter-name {
+      font-family: "pf_agora_sans_pro_Medium_Italic_italic";
+      font-style: italic;
+
+      color: #a27666;
+      font-size: em(20px);
+      font-weight: 500;
+    }
+
+    > input {
+      margin-left: 8px;
+
+      width: 232px;
+
+      background: url(../../images/filter_range_bg.jpg) repeat-x;
+
+      -webkit-appearance: none;
+      display: block;
+      min-height: 43px;
+      outline: none;
+    }
+
+    input::-webkit-slider-thumb {
+      @extend .thumb;
+    }
+
+    input::-moz-range-thumb {
+      @extend .thumb;
+    }
+  }
+
+  .type-of-gift {
+    margin-left: 3px;
+
+    background: url('../../images/filter-bg-bottom.jpg') no-repeat bottom ,url("../../images/filter-bg.jpg") repeat-y;
+
+    min-height: 300px;
+    header {
+      padding-top: 30px;
+
+      font-family: pf_agora_sans_pro_Medium_Italic;
+      font-style: italic;
+
+      background: url("../../images/filter-header-bg.jpg") no-repeat;
+
+      color: #fff;
+      font-size: em(14px);
+      font-weight: 500;
+      text-transform: none;
+    }
+
+    input[type=checkbox] {
+      margin-top: 10px;
+      margin-left: 15px;
+
+      clear: both;
+      display: none;
+      float: left;
+    }
+
+    label:before {
+      margin-right: 10px;
+      margin-bottom: -4px;
+
+      width: 17px;
+      height: 17px;
+
+      background: url("../../images/filter-checkbox.png") no-repeat top center;
+
+      content: '';
+      display: inline-block;
+    }
+
+    input[type=checkbox]:checked + label:before {
+      background-position: bottom center;
+    }
+
+    label {
+      margin-top: 7px;
+      margin-left: 15px;
+
+      padding-bottom: 5px;
+
+      width: 180px;
+
+      font-family: pf_agora_sans_pro_Medium_Italic;
+      font-style: italic;
+
+      color: #b08a7c;
+      display: block;
+      float: left;
+      font-size: em(14px);
+      font-weight: 500;
+      text-align: left;
+    }
+  }
 }
