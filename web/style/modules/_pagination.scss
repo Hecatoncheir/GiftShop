@@ -96,3 +96,17 @@
     display: inline-block;
   }
 }
+
+.count-items {
+  margin: 0 auto;
+
+  width: 16%;
+  select {
+    padding-left: 10px !important;
+
+    font-family: pf_agora_sans_pro_light_italic;
+    font-style: italic;
+
+    font-size: em(14px);
+  }
+}
