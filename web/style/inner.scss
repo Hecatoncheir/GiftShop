@@ -4,11 +4,13 @@
 @import 'modules/pagination';
 
 @import 'components/filter';
+@import 'components/inner_footer';
 
 .main-content {
 	background: #f3eeed;
 	clear: both;
 	padding-top: 1px;
+	padding-bottom: 30px;
 	
 	.fast-search-section {
 		margin-top:-10px;
@@ -19,6 +21,8 @@
 	.main-aside {
 		float: left;
 		width: 250px !important;
+		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 	
 	.content {
