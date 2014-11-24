@@ -95,6 +95,8 @@
   .type-of-gift {
     margin-left: 3px;
 
+    padding-bottom: 21px;
+
     background: url('../../images/filter-bg-bottom.jpg') no-repeat bottom ,url("../../images/filter-bg.jpg") repeat-y;
 
     min-height: 300px;
@@ -138,18 +140,23 @@
       background-position: bottom center;
     }
 
+    input[type=checkbox]:checked + label {
+      color: #8d8180;
+    }
+
     label {
       margin-top: 7px;
       margin-left: 15px;
 
-      padding-bottom: 5px;
+      padding-bottom: 7px;
 
-      width: 180px;
+      width: 220px;
 
       font-family: pf_agora_sans_pro_Medium_Italic;
       font-style: italic;
 
       color: #b08a7c;
+      cursor: pointer;
       display: block;
       float: left;
       font-size: em(14px);
