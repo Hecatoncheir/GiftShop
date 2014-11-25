@@ -31,6 +31,7 @@
 .page-top {
   position: relative;
   top: -50px;
+  padding-bottom: 50px;
 }
 
 .pagination .pagination-right {
@@ -50,4 +51,67 @@
 .arrows {
   float: right;
   margin: 37px 5px 0 5px;
+}
+
+//Item preview aside
+.item-preview {
+  clear: both;
+  float: left;
+  margin-top: -50px;
+  width: 430px;
+  margin-bottom: 80px;
+
+  .main-item-preview {
+    border: 2px solid #f0eeee;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    padding: 5px;
+    width: 90%;
+
+    img {
+      width: 90%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .mini-preview {
+    width: 90px;
+    height: 90px;
+    display: block;
+    float: left;
+    border: 2px solid #f0eeee;
+    margin-right: 25px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    margin-top: 25px;
+
+    img {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  .video-preview {
+    clear: both;
+    display: block;
+    width: 90%;
+    padding-top: 40px;
+
+    video {
+      width: 100%;
+      height: auto;
+      -webkit-box-shadow: 5px 5px 30px #868686;
+      -moz-box-shadow: 5px 5px 30px #868686;
+      box-shadow: 5px 5px 30px #868686;
+    }
+  }
+}
+
+//footer
+footer {
+  top: 80px;
 }
