@@ -12,101 +12,231 @@
 
 
   h4 {
-    color: #c58250;
-    font-size: em(24px) !important;
-    font-family: pf_agora_sans_pro_Medium_Italic;
-    float: left;
     width: auto;
+
+    font-family: pf_agora_sans_pro_Medium_Italic;
+
+    color: #c58250;
     display: inline-block;
+    float: left;
+    font-size: em(24px) !important;
   }
 }
 
 .full-item-navigation {
-  width: 310px !important;
-  text-align: right !important;
-  float: right;
   padding-top: 129px;
+
+  width: 310px !important;
+
+  float: right;
+  text-align: right !important;
 }
 
 .page-top {
-  position: relative;
   top: -50px;
+
   padding-bottom: 50px;
+
+  position: relative;
 }
 
 .pagination .pagination-right {
   top: 33px !important;
 }
 
+.pagination {
+  margin-right: -16px !important;
+}
+
 .back-in-catalog-icon {
+  top: 2px;
+
   position: relative;
-  top:2px;
 }
 
 .arrow-full-item-page-icon {
-  position: relative;
   left: -10px;
+
+  position: relative;
 }
 
 .arrows {
-  float: right;
   margin: 37px 5px 0 5px;
+
+  float: right;
 }
 
-//Item preview aside
+//Item preview AISDE
 .item-preview {
-  clear: both;
-  float: left;
-  margin-top: -50px;
-  width: 430px;
+  margin-top: -70px;
   margin-bottom: 80px;
 
+  width: 430px;
+
+  clear: both;
+  float: left;
+
   .main-item-preview {
-    border: 2px solid #f0eeee;
-    -webkit-border-radius: 12px;
-    border-radius: 12px;
     padding: 5px;
+
     width: 90%;
 
+    border: 2px solid #f0eeee;
+
+    -webkit-border-radius: 12px;
+            border-radius: 12px;
+
     img {
+      margin: 0 auto;
+
       width: 90%;
       height: auto;
+
       display: block;
-      margin: 0 auto;
     }
   }
 
   .mini-preview {
+    margin-top: 25px;
+    margin-right: 25px;
+
     width: 90px;
     height: 90px;
+
+    border: 2px solid #f0eeee;
+
+    -webkit-border-radius: 6px;
+            border-radius: 6px;
     display: block;
     float: left;
-    border: 2px solid #f0eeee;
-    margin-right: 25px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    margin-top: 25px;
 
     img {
+      margin: 0 auto;
+
       width: 90%;
       height: auto;
-      margin: 0 auto;
+
       display: block;
     }
   }
 
   .video-preview {
+    padding-top: 40px;
+
+    width: 90%;
+
     clear: both;
     display: block;
-    width: 90%;
-    padding-top: 40px;
 
     video {
       width: 100%;
       height: auto;
+
       -webkit-box-shadow: 5px 5px 30px #868686;
-      -moz-box-shadow: 5px 5px 30px #868686;
-      box-shadow: 5px 5px 30px #868686;
+         -moz-box-shadow: 5px 5px 30px #868686;
+              box-shadow: 5px 5px 30px #868686;
+    }
+  }
+}
+
+//Item info
+.item-full-info {
+  margin-top: -50px;
+  margin-left: 2%;
+
+  width: 64%;
+
+  float: right;
+
+  .cost {
+    margin-top: -30px;
+
+    font-family: pf_agora_sans_pro_Medium_Italic;
+    font-style: italic;
+    // Base style
+
+    color: #e2dede;
+    font-size: em(29px);
+    font-weight: 500;
+
+    span {
+      color: #d86c4a;
+      font-size: em(39px, 29px);
+    }
+  }
+
+  .gift-action-buy {
+    width: 96px;
+    height: 45px;
+
+    border: none;
+    background: url("../images/buy-item-full.png") no-repeat;
+
+    display: block;
+    outline: none;
+  }
+
+  .gift-action-buy:hover {
+    background-position: bottom;
+  }
+
+  //  Badges
+  .badges {
+    margin-top: -15px;
+
+    float: right;
+
+    .badge {
+      margin-left: 15px;
+    }
+  }
+
+  //  Свойства подарка
+  .item-properties {
+    margin: 40px 0 10px 0;
+    padding: 0;
+
+    ul {
+      margin-left: -40px;
+    }
+
+    li {
+      font-family: pf_agora_sans_pro_Medium_Italic;
+      font-style: italic;
+
+      color: #6c574e;
+      font-size: em(14px);
+      list-style: none !important;
+
+      span {
+        color: #c58251;
+      }
+
+      select {
+        top: -20px;
+        left: 44px;
+
+        display: inline-block;
+        position: relative;
+      }
+    }
+  }
+
+  //  Текст
+  p {
+    font-family: pf_agora_sans_pro_Medium_Italic;
+    font-style: italic;
+
+    color: #6c574e;
+    font-size: em(14px);
+
+    span {
+      color: #c58251;
+    }
+
+    a {
+      color: #6c574e;
+      text-decoration: underline;
     }
   }
 }

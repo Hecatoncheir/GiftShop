@@ -158,19 +158,23 @@
 }
 
 .back-in-catalog-icon {
-  display: inline-block;
   width: 8px;
   height: 11px;
+
   background: url("../../images/back-in-catalog-icon.png") no-repeat;
+
+  display: inline-block;
 }
 
 
 .arrow-full-item-page-icon {
-  display: inline-block;
-  background: url("../images/arrow-full-item-page.png") no-repeat;
   width: 21px;
   height: 22px;
+
+  background: url("../images/arrow-full-item-page.png") no-repeat;
+
   background-position: top;
+  display: inline-block;
 }
 
 .arrow-full-item-page-icon:hover {
@@ -178,8 +182,41 @@
 }
 
 .arrow-right {
-//  -ms-transform: rotate(180deg); /* IE 9 */
-//  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-//  transform: rotate(180deg);
+  //  -ms-transform: rotate(180deg); /* IE 9 */
+  //  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  //  transform: rotate(180deg);
   background: url("../../images/arrow-right-full-item-page.png") no-repeat;
+}
+
+.cost-roubl {
+  width: 17px;
+  height: 25px;
+
+  background: url("../../images/icons/cost-roubl.png") no-repeat;
+
+  display: inline-block;
+}
+
+//Бэйджи
+.badge {
+  width: 85px;
+  height: 85px;
+
+  display: inline-block;
+  float: left;
+}
+
+.vip-icon {
+  background: url("../../images/icons/vip-icon.png") no-repeat;
+}
+
+.sale-icon {
+  background: url("../../images/icons/sale-icon.png") no-repeat;
+}
+.new-icon {
+  background: url("../../images/icons/new-icon.png") no-repeat;
+}
+
+.hit-icon {
+  background: url("../../images/icons/hit-icon.png") no-repeat;
 }
