@@ -45,7 +45,7 @@
 }
 
 .pagination {
-  margin-right: -16px !important;
+  margin-right: -12px !important;
 }
 
 .back-in-catalog-icon {
@@ -237,6 +237,85 @@
     a {
       color: #6c574e;
       text-decoration: underline;
+    }
+  }
+
+  //  Комментарии
+
+  .comments {
+    font-family: pf_agora_sans_pro_bold_italic;
+    font-style: italic;
+
+    color: #8b716a;
+    font-size: em(14px);
+
+    .breadcrumbs-circle {
+      padding: 2px 3px;
+
+      margin-top: 6px;
+      margin-left: 6px;
+
+      display: inline-block;
+      float: left;
+    }
+
+    span {
+      padding: 2px 4px;
+
+      padding-right: 10px;
+      padding-left: 10px;
+
+      background: #fff;
+
+      float: left;
+    }
+
+    .line-name {
+      margin-top: -7px;
+      margin-right: 4px;
+
+      font-family: pf_agora_sans_pro_thin_Italic;
+
+      color: #c58251;
+      font-size: em(24px, 14px) !important;
+      font-weight: bold;
+    }
+
+    hr {
+      bottom: -19px;
+
+      border: 1px solid #d3cece;
+
+      color: #d3cece;
+      position: relative;
+      z-index: -1;
+    }
+  }
+
+  .open-comments {
+    padding-bottom: 30px;
+  }
+
+  //  Комментарий
+  .comment {
+    margin-top: 20px;
+    margin-left: 5px;
+
+    clear: both;
+
+    .comment-text {
+      padding-top: 3px;
+      padding-left: 110px;
+
+      clear: both;
+
+      p {
+        font-family: pf_agora_sans_pro_regular;
+        font-style: normal;
+
+        color: #8b716a !important;
+        font-size: em(18px);
+      }
     }
   }
 }
