@@ -1,6 +1,17 @@
 @import 'modules/breadcrumbs';
 @import 'modules/pagination';
 
+.for-form-inputs {
+  padding: 4px 8px;
+
+  border: 2px solid #c6bcb9;
+  background: #f4f4f4;
+
+  border-radius: 12px;
+  color: #9b8d85;
+  outline: none;
+}
+
 .breadcrumbs {
   hgroup {
     margin-left: 0;
@@ -318,9 +329,61 @@
       }
     }
   }
+
+  //  Форма добавление отзыва
+  .review-form {
+    width: 600px;
+
+    clear: both;
+    display: block;
+    float: right;
+
+    textarea {
+      @extend .for-form-inputs;
+
+      margin-right: 10px;
+
+      width: 365px;
+
+      float: left;
+      min-height: 100px;
+    }
+
+    textarea::-webkit-input-placeholder {
+      color: #9b8d85;
+    }
+
+    input {
+      @extend .for-form-inputs;
+
+      width: 177px;
+
+      float: right;
+    }
+
+    .review-send {
+      padding: 0;
+
+      margin-top: 15px;
+      margin-left: 7px;
+
+      width: 112px;
+      height: 28px;
+
+      border: none;
+      background: url("../images/review-send.png") no-repeat top;
+
+      border-radius: 0;
+      clear: right;
+      float: left;
+    }
+    .review-send:hover {
+      background-position: bottom;
+    }
+  }
 }
 
 //footer
 footer {
-  top: 80px;
+  top: 100px;
 }
