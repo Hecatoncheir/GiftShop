@@ -3,6 +3,87 @@
 
 .breadcrumbs {
   hgroup {
-    margin-left: 0;
+    margin-left: 70px;
+  }
+}
+
+.cart-section {
+  padding-bottom: 180px;
+
+  clear: both;
+
+  header {
+    margin: 0 auto;
+    padding: 0 10px;
+
+    width: 1135px;
+    height: 32px;
+
+    border: 2px solid #b7a28c;
+    background: url("../images/cart/top_cart_line.png") repeat-x;
+
+    border-radius: 16px;
+
+    hr {
+      bottom: -4px;
+
+      width: 779px;
+      height: 4px;
+
+      border: none;
+      background: url("../images/cart/top_cart_line_hr.png") repeat-x;
+
+      display: inline-block;
+      float: left;
+      position: relative;
+    }
+
+    .mini-hr {
+      width: 120px !important;
+    }
+
+    span {
+      bottom: -5px;
+
+      margin: 0 5px;
+
+      font-family: pf_agora_sans_pro_medium_italic;
+      font-style: italic;
+
+      color: #f0e9dc;
+      float: left;
+      font-size: em(14px);
+      position: relative;
+    }
+
+    span:first-child {
+      margin-right: 10px;
+    }
+
+    .cart_top_ellipse {
+      bottom: -9px;
+
+      width: 10px;
+      height: 10px;
+
+      background: url("../images/cart/ellipse.png") no-repeat;
+
+      display: inline-block;
+      float: left;
+      position: relative;
+    }
+  }
+
+  .items-in-cart {
+    top: -2px;
+
+    margin: 0 auto !important;
+
+    width: 1105px;
+
+    background: url("../images/cart/items_in_cart_bg_top.png") no-repeat top center, url(../images/cart/items_in_cart_bg_repeat.png) repeat-y;
+
+    min-height: 100px;
+    position: relative;
   }
 }
