@@ -156,3 +156,30 @@
 
   display: block;
 }
+
+.back-in-catalog-icon {
+  display: inline-block;
+  width: 8px;
+  height: 11px;
+  background: url("../../images/back-in-catalog-icon.png") no-repeat;
+}
+
+
+.arrow-full-item-page-icon {
+  display: inline-block;
+  background: url("../images/arrow-full-item-page.png") no-repeat;
+  width: 21px;
+  height: 22px;
+  background-position: top;
+}
+
+.arrow-full-item-page-icon:hover {
+  background-position: bottom;
+}
+
+.arrow-right {
+//  -ms-transform: rotate(180deg); /* IE 9 */
+//  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+//  transform: rotate(180deg);
+  background: url("../../images/arrow-right-full-item-page.png") no-repeat;
+}
