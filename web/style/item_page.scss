@@ -224,10 +224,21 @@
       }
 
       select {
-        top: -20px;
+        top: -28px;
         left: 44px;
 
+        padding-left: 10px;
+
+        width: 178px;
+        height: 37px;
+
+        border: none;
+        background: url("../images/fast_search/bg.png") no-repeat;
+
+        -webkit-appearance: none;
+           -moz-appearance: none;
         display: inline-block;
+        outline: none;
         position: relative;
       }
     }
