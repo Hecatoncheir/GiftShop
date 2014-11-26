@@ -1,0 +1,520 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GiftShop</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="style/main.css" type="text/css" />
+    <link rel="stylesheet" href="style/item_page.css" type="text/css" />
+    <!-- Script -->
+    <script src="scripts/main.dart" type="application/dart"></script>
+  </head>
+  
+  <body>
+<!-- Header -->
+	  <header class="main-header">
+	  	<section class="mid-page">
+	  			<nav>
+	  				<a href="#">О магазине</a>
+	  				<a href="#">Проверка заказа</a>
+	  				<a href="#">Каталог</a>
+	  				<a href="#">Доставка</a>
+	  				<a href="#">Оплата</a>
+	  				<a href="#">Контакты</a>
+	  			</nav>
+<!-- Personal pages -->
+	  			<div class="login-box">
+	  				<a href="#">Личный кабинет</a>
+	  				<a href="#">Регистрация</a>
+	  			</div>
+	  			
+<!-- Cart -->
+	  			<a href="#" class="cart">
+						<i class="cart-icon"></i>
+						<span class="cart-lable">Корзина</span>
+					<p>
+						<span class="cart-font-bold">2</span> товара на сумму <span class="cart-font-bold">1375</span>
+						<i class="r-bold-icon"></i>
+	  				</p>
+	  			</a>
+	  			
+	  			<div class="both"></div>
+	  	</section>
+	  </header>
+	  
+<!-- Cover -->
+	  <div class="cover">
+			<section class="mid-page">
+				<hgroup>
+					<h2>интернет-магазин</h2>
+					<h1>Подарки от души</h1>
+				</hgroup>
+<!-- Поиск -->
+				<form class="search-box" method="post" action="">
+					<input type="text" placeholder="Найти подарок..." name="" value="" />
+					<input type="submit" class="search-icon" name="" value="" />
+				</form>
+
+				<a href="#" class="bear"></a><!--Медведь -->	
+				
+				<div class="telephone">+7 495 777-2250</div><!-- Телефон -->	
+				
+				<div class="main-cover-nav">
+					<nav>
+						<a href="#">Для него</a>
+						<a href="#">Любимому</a>
+						<a href="#">Коллеге</a>
+						<a href="#">Шефу</a>
+						<a href="#">Мужу</a>
+						<a href="#">Другу</a>
+					</nav>
+					<nav>
+						<a href="#">Для нее</a>
+						<a href="#">Любимой</a>
+						<a href="#">Подруге</a>
+						<a href="#">Невесте</a>
+						<a href="#">Жене</a>
+						<a href="#">Дочке</a>
+					</nav>
+					<nav>
+						<a href="#">И еще...</a>
+						<a href="#">VIP-подарки</a>
+						<a href="#">Новинки</a>
+						<a href="#">Хиты</a>
+						<a href="#">Распродажа</a>
+					</nav>
+				</div><!-- Основное меню: "Для него, Для нее, Еще" -->	
+				
+<!-- Календарь -->
+				<div class="cover-calendar">
+				
+					<div class="date-name">Подарки на день программиста</div><!-- Название даты -->	
+					<i class="date-name-ellipse-icon"></i>
+					
+					<div class="gift-block"><!-- Блок с подарками -->	
+					
+						<nav><!-- Подходящие подарки -->	
+							<a href="#"><img src="images/preview/calendar_1.png" alt="calendar_1"></a>
+							<a href="#"><img src="images/preview/calendar_2.png" alt="calendar_1"></a>
+							<a href="#"><img src="images/preview/calendar_3.png" alt="calendar_1"></a>
+						</nav>
+						
+						<a class="all-gifts-link" href="#">Показать еще подарки</a>
+					</div>
+					
+					<!-- Даты -->
+					<nav class="date">
+					
+						<a href="#" class="date-prev">
+							<i class="arrow-top-icon"></i>
+						</a>
+					
+						<!-- Блок с датами -->
+						<div class="date-block">
+						
+							<!-- prew date -->
+							<a href="#date-name">1<br/>
+								<span>сентября</span>
+							</a>
+							
+							<!-- immediate date -->
+							<a href="#date-name">13 <br/>
+								<span>сентября</span>
+							</a>
+							
+							<a href="#date-name">7 <br/>
+								<span>ноября</span>
+							</a>
+							
+							<a href="#date-name">31 <br/>
+								<span>декабря</span>
+							</a>
+							
+						</div>
+						
+						<a href="#" class="date-next">
+							<i class="arrow-bottom-icon"></i>
+						</a>
+					</nav>
+					
+				</div>
+
+			</section>
+		</div>
+
+<!-- Основное меню -->
+		
+		<div class="main">
+			<section class="mid-page">
+			
+<!-- Main Header -->
+				<header>
+					<div class="ribbon"></div>
+					<ul>
+						<li><a href="#">Уютный дом</a></li>
+						<li><a href="#">Работа, учёба</a></li>
+						<li>
+							<a href="#">Vip-подарки
+								<ul class="drop-menu"><!-- Вложенное меню -->
+									<li>
+										<a href="#">
+											Аксесуары для обуви
+											<ul class="drop-sub-menu">
+												<li><a href="#">Мини-книги</a></li>
+											</ul>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Бары настольные
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Вазы
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Книги
+											<ul class="drop-sub-menu">
+												<li><a href="#">Мини-книги</a></li>
+												<li><a href="#">Подарочные издания</a></li>
+                                                <li><a href="#">Родословные книги</a></li>
+											</ul>
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Коллекция Русский стиль
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Коллекция Честь мундира
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Наборы для крепких напитков
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Наборы для шашлыка
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Наборы для шашлыка
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Сервизы для чая и кофе
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Фотоальбомы
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Часы
+										</a>
+									</li>
+                                  <li>
+										<a href="#">
+											Штофы для напитков
+										</a>
+									</li>
+								</ul><!-- Вложенное меню -->
+							</a>
+						</li>
+						<li><a href="#">Хобби</a></li>
+						<li><a href="#">Аксессуары</a></li>
+						<li><a href="#">Призвание</a></li>
+						<li><a href="#">Открытки</a></li>
+                      <div class="both"></div>
+					</ul>
+				</header>
+				
+			</section>
+		</div>
+		
+<!-- Основаня область -->
+		<div class="breadcrumbs">
+			<hr />
+			<div class="mid-page">
+				<hgroup>
+					<a href="#"><h2>Магазин подарков</h2></a>
+					<i class="breadcrumbs-circle"></i>
+					<a href="#"><h2>Для дома</h2></a>
+					<i class="breadcrumbs-circle"></i>
+
+					<a href="#"><h2>Интерьер</h2></a>
+					<i class="breadcrumbs-circle"></i>
+					<h3>Декор для стен</h3>
+				</hgroup>
+
+			</div>
+		</div>
+
+	<div class="full-item">
+		<section class="mid-page">
+
+			<div class="page-top">
+				<h4>USB-АВТОхаб ВЫСОКОСКОРОСТНОЙ</h4>
+
+				<nav class="pagination ful-item-navigation">
+
+					<div class="arrows">
+						<a href="#">
+							<span>
+								<i class="arrow-full-item-page-icon arrow-right"></i>
+							</span>
+						</a>
+					</div>
+
+					<div class="arrows">
+						<a href="#">
+								<span>
+									<i class="arrow-full-item-page-icon arrow-left"></i>
+								</span>
+						</a>
+				</div>
+
+					<div class="pagination-button pagination-right">
+						<a href="#">
+							<span>
+								<i class="back-in-catalog-icon"></i>
+								Вернуться в раздел (каталог)
+							</span>
+						</a>
+					</div>
+
+
+
+				</nav>
+			</div>
+
+<!--Item Preview-->
+			<aside class="item-preview">
+				<div class="images">
+					<div class="main-item-preview">
+						<img src="images/preview/item-preview.jpg">
+					</div>
+					<!--mini preview-->
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (1).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (2).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (3).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (4).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (5).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (6).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (7).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (8).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (9).jpg">
+					</div>
+					<div class="mini-preview">
+						<img src="images/preview/gift_auto/автохаб (10).jpg">
+					</div>
+				</div>
+
+				<div class="video-preview">
+					<video>
+						<source src="http://www.youtube.com/embed/1NDkVx9AzSY">
+					</video>
+				</div>
+
+			</aside>
+
+<!--Item Info-->
+			<section class="item-full-info">
+
+				<!--Бэйдж-->
+				<div class="badges">
+					<i class="badge vip-icon"></i>
+					<i class="badge sale-icon"></i>
+					<i class="badge new-icon"></i>
+					<i class="badge hit-icon"></i>
+				</div>
+
+				<!--Цена-->
+				<div class="cost">
+					Цена: <span>750</span>
+					<i class="cost-roubl"></i>
+				</div>
+
+				<!--Buy action-->
+				<div class="buy-item-form">
+					<form class="gift-actions">
+						<input type="submit" value="" class="gift-action-buy">
+					</form>
+				</div>
+
+				<!--Свойства-->
+				<div class="item-properties">
+					<ul>
+						<li><span>Артикул:</span> 128.</li>
+						<li><span>Наличие:</span> Есть в наличии.</li>
+					</ul>
+					<ul>
+						<li><span>Материал:</span> пластик.</li>
+						<li><span>Размеры:</span> 10,5х5,6х3,3 см, длина провода 51 см.</li>
+						<li><span>Размер упаковки:</span> 22,5х10х5см.</li>
+						<li><span>Вес:</span> 0.065 кг.</li>
+					</ul>
+					<ul>
+						<li><span>Цвет:</span> желтый, синий.</li>
+					</ul>
+					<ul>
+						<li>Цвет:
+							<form>
+								<select>
+									<option>Синий</option>
+									<option>Желтый</option>
+								</select>
+							</form>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Текст-->
+				<div class="info-text">
+					<p>
+						<span>Наш USB-АВТОхаб - 4-х портовый высокоскоростной</span> USB-концентратор, выполненный в виде стильного спортивного автомобиля с эффектной подсветкой задних и передних фар.
+					</p>
+
+					<p>
+						<span>USB-АВТОхаб ВЫСОКОСКОРОСТНОЙ соответствует</span> спецификации 2.0 шины USB, обладает обратной совместимостью с USB 1.1 и позволяет быстро и удобно подключить к компьютеру или ноутбуку внешнее оборудование USB. А возможность использования блока питания 220V/5V (нет в комплекте) обеспечит возможность подключения сразу нескольких энергоемких устройств.
+					</p>
+
+					<p>
+						<span>USB-АВТОхаб ВЫСОКОСКОРОСТНОЙ - стильно,</span> удобно и функционально!
+					</p>
+					<p>
+						<span>Характеристики:</span><br>
+						Тип: USB-концентратор;<br>
+						Подключение: USB 2.0, поддержка USB 1.1;<br>
+						Питание: USB-порт;<br>
+						Скорость передачи данных: до 480 Мбит/с;<br>
+						4 USB-порта;<br>
+						Поддержка Plug&Play;<br>
+						Дополнительные функции: функции определения перегрузок по току и защиты выходных портов;<br>
+						Автоматическое распознавание максимальной скорости передачи данных на каждом порту;<br>
+						Подсветка задних и передних фар.
+					</p>
+					<p>
+						<span>ПОСМОТРЕТЬ все компьютерные и мобильные гаджеты</span> можно <a href="#"> здесь.</a>
+					</p>
+				</div>
+
+				<!--Комментарии-->
+				<section class="comments">
+					<div class="comment-line open-comments">
+						<hr>
+						<span>Отзывы</span>
+						<i class="breadcrumbs-circle"></i>
+						<span class="line-name">
+							Скрыть отзывы
+						</span>
+						<i class="breadcrumbs-circle"></i>
+					</div>
+
+					<!--Отзыв-->
+					<div class="comment">
+						<div class="comment-line comment">
+							<hr>
+							<span>Отзыв</span>
+							<i class="breadcrumbs-circle"></i>
+						<span class="line-name">
+							Евгений
+						</span>
+							<i class="breadcrumbs-circle"></i>
+						</div>
+
+						<div class="comment-text">
+							<p>Купил, подарил, доволен</p>
+						</div>
+					</div>
+
+					<!--Отзыв-->
+					<div class="comment">
+						<div class="comment-line comment">
+							<hr>
+							<span>Отзыв</span>
+							<i class="breadcrumbs-circle"></i>
+						<span class="line-name">
+							Семён
+						</span>
+							<i class="breadcrumbs-circle"></i>
+						</div>
+
+						<div class="comment-text">
+							<p>Хороший подарок</p>
+						</div>
+					</div>
+				</section>
+
+				<!--Форма добавление отзывов-->
+				<form class="review-form" name="review">
+					<textarea placeholder="Текст отзыва"></textarea>
+
+					<input type="text" placeholder="Имя">
+					<input class="review-send" type="submit" value="">
+
+				</form>
+
+			</section>
+
+		</section>
+	</div>
+
+<!--Footer-->
+		<footer>
+			<section class="mid-page">
+				<a href="#" class="footer-elefan"></a>
+				<p>
+					Все права защищены.<br/>
+					<b>© 2014 Подарки от души.</b> <br/>
+					<span style="color: #d9bb85;">www.Giftsheart.ru</span><br/>
+					<span style="padding-top: 6px; display: inline-block;">г. Москва, Ленинградский проспект, д.16, стр.2</span><br/>
+					<span>8 495 777-2250</span>
+				</p>
+
+        <div class='socicons'>
+          <a class="soc-icons vk" href="#"></a>
+          <a class="soc-icons ok" href="#"></a>
+          <a class="soc-icons fb" href="#"></a>
+          <a class="soc-icons in" href="#"></a>
+          <a class="soc-icons gp" href="#"></a>
+        </div>
+
+				<div class="footer-bear"></div>
+			</section>
+		</footer>
+		
+  </body>
+  
+</html>
