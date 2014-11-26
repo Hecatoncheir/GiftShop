@@ -3,7 +3,7 @@
   width: 18px;
   height: 18px;
 
-  background: url("../../images/filter_range_type.jpg") no-repeat;
+  background: url("../images/filter_range_type.jpg") no-repeat;
 
   display: block;
 }
@@ -77,7 +77,7 @@
 
       width: 232px;
 
-      background: url(../../images/filter_range_bg.jpg) repeat-x;
+      background: url(../images/filter_range_bg.jpg) repeat-x;
 
       -webkit-appearance: none;
       display: block;
@@ -99,7 +99,7 @@
 
     padding-bottom: 21px;
 
-    background: url('../../images/filter-bg-bottom.jpg') no-repeat bottom ,url("../../images/filter-bg.jpg") repeat-y;
+    background: url('../images/filter-bg-bottom.jpg') no-repeat bottom ,url("../images/filter-bg.jpg") repeat-y;
 
     min-height: 300px;
     header {
@@ -108,7 +108,7 @@
       font-family: pf_agora_sans_pro_Medium_Italic;
       font-style: italic;
 
-      background: url("../../images/filter-header-bg.jpg") no-repeat;
+      background: url("../images/filter-header-bg.jpg") no-repeat;
 
       color: #fff;
       font-size: em(14px);
@@ -132,7 +132,7 @@
       width: 17px;
       height: 17px;
 
-      background: url("../../images/filter-checkbox.png") no-repeat top center;
+      background: url("../images/filter-checkbox.png") no-repeat top center;
 
       content: '';
       display: inline-block;
