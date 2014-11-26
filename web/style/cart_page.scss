@@ -16,7 +16,7 @@
     margin: 0 auto;
     padding: 0 10px;
 
-    width: 1135px;
+    width: 1130px;
     height: 32px;
 
     border: 2px solid #b7a28c;
@@ -39,7 +39,7 @@
     }
 
     .mini-hr {
-      width: 120px !important;
+      width: 110px !important;
     }
 
     span {
@@ -81,9 +81,55 @@
 
     width: 1105px;
 
-    background: url("../images/cart/items_in_cart_bg_top.png") no-repeat top center, url(../images/cart/items_in_cart_bg_repeat.png) repeat-y;
+    background: url("../images/cart/items_in_cart_bg_bottom.png") no-repeat bottom center, url("../images/cart/items_in_cart_bg_top.png") no-repeat top center, url(../images/cart/items_in_cart_bg_repeat.png) repeat-y;
 
     min-height: 100px;
     position: relative;
+
+    table {
+      font-family: pf_agora_sans_pro_thin_Italic;
+      font-style: italic;
+
+      color: #96735c !important;
+      font-size: em(18px);
+      font-weight: bold;
+
+      input[type=number]{
+        outline: none;
+        background: none;
+        border: none;
+        width: 45px;
+        padding: 0 5px;
+        text-align: center;
+        float: left;
+        marign-right: 420px;
+      }
+    }
   }
+
+  td:first-child {
+    width: 830px;
+    padding-right: 10px;
+  }
+
+  td:last-child{
+    text-align: right;
+    span {
+      float: right;
+    }
+  }
+
+  .item-in-cart {
+    padding: 15px;
+
+    img {
+      margin-right: 10px;
+
+      border-radius: 6px;
+      -webkit-box-shadow: 1px 1px 1px #8b674e;
+         -moz-box-shadow: 1px 1px 1px #8b674e;
+              box-shadow: 1px 1px 1px #8b674e;
+    }
+  }
+
 }

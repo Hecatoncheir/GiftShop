@@ -220,3 +220,17 @@
 .hit-icon {
   background: url("../../images/icons/hit-icon.png") no-repeat;
 }
+
+//Корзина
+.input-number {
+  cursor: pointer;
+  width: 25px;
+  height: 24px;
+  display: block;
+  float: left;
+  background: url("../../images/cart/item-number-count.png") no-repeat;
+}
+
+.number-up {
+  background-position: right;
+}
