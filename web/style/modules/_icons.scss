@@ -226,15 +226,27 @@
   width: 25px;
   height: 24px;
 
-  background: url("../../images/cart/item-number-count.png") no-repeat;
+  background: url("../../images/cart/item-number-count.png") no-repeat top left;
 
   cursor: pointer;
   display: block;
   float: left;
 }
 
+.number-down {
+  background-position: top left;
+}
+
+.number-down:hover {
+  background-position: bottom left;
+}
+
 .number-up {
-  background-position: right;
+  background-position: top right;
+}
+
+.number-up:hover {
+  background-position: bottom right;
 }
 
 .cart-item-rouble {
