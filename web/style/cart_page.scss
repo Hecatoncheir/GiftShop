@@ -16,7 +16,7 @@
     margin: 0 auto;
     padding: 0 10px;
 
-    width: 1130px;
+    width: 1110px;
     height: 32px;
 
     border: 2px solid #b7a28c;
@@ -39,7 +39,7 @@
     }
 
     .mini-hr {
-      width: 110px !important;
+      width: 70px !important;
     }
 
     span {
@@ -81,7 +81,7 @@
 
     width: 1105px;
 
-    background: url("../images/cart/items_in_cart_bg_bottom.png") no-repeat bottom center, url("../images/cart/items_in_cart_bg_top.png") no-repeat top center, url(../images/cart/items_in_cart_bg_repeat.png) repeat-y;
+    background: url("../images/cart/items_in_cart_bg_bottom.png") no-repeat bottom center, url("../images/cart/items_in_cart_bg_top.png") no-repeat top center, url(../images/cart/items_in_cart_bg_repeat.png) repeat-y 0 53px;
 
     min-height: 100px;
     position: relative;
@@ -94,6 +94,16 @@
       font-size: em(18px);
       font-weight: bold;
 
+      tr {
+        clear: both;
+      }
+
+      tr:last-child {
+        .item-in-cart {
+          margin-bottom: -4px !important;
+        }
+      }
+
       input[type=number]{
         outline: none;
         background: none;
@@ -102,25 +112,26 @@
         padding: 0 5px;
         text-align: center;
         float: left;
-        marign-right: 420px;
       }
     }
   }
 
   td:first-child {
     width: 830px;
-    padding-right: 10px;
+  }
+
+  .item-cost {
+    width: 100%;
   }
 
   td:last-child{
     text-align: right;
-    span {
-      float: right;
-    }
+    width: 140px;
   }
 
   .item-in-cart {
-    padding: 15px;
+    padding: 20px 15px;
+    margin-bottom: -20px;
 
     img {
       margin-right: 10px;

@@ -223,14 +223,25 @@
 
 //Корзина
 .input-number {
-  cursor: pointer;
   width: 25px;
   height: 24px;
+
+  background: url("../../images/cart/item-number-count.png") no-repeat;
+
+  cursor: pointer;
   display: block;
   float: left;
-  background: url("../../images/cart/item-number-count.png") no-repeat;
 }
 
 .number-up {
   background-position: right;
+}
+
+.cart-item-rouble {
+  width: 12px;
+  height: 11px;
+
+  background: url("../../images/cart/cart-item-rouble.png") no-repeat;
+
+  display: inline-block;
 }
