@@ -254,21 +254,187 @@
 				</hgroup>
 				
 					<div class="filter-button">
-						<div class="button-border">
-							<div class="button-inner">
-								<span class="button-text">Настроить фильтр</span>
+							<div class="button-inner must-button active">
+								<div>
+									<span class="button-text">Настроить фильтр</span>
+								</div>
 							</div>
-						</div>
 					</div>
 			</div>
 		</div>
+
+
+	<!--Open Filters-->
+	<div class="openFilters">
+		<div class="mid-page">
+			<form name="filters">
+
+				<!--Иконки фильтра-->
+				<div class="filters-gender-icons">
+					<input name="" id="gender_1" type="radio">
+					<label for="gender_1">
+						<i class="filter-gender-man-icon"></i>
+					</label>
+					<input name="" id="gender_2" type="radio">
+					<label for="gender_2">
+						<i class="filter-gender-woman-icon"></i>
+					</label>
+					<input name="" id="gender_3" type="radio">
+					<label for="gender_2">
+						<i class="filter-gender-boy-icon"></i>
+					</label>
+					<input name="" id="gender_3" type="radio">
+					<label for="gender_2">
+						<i class="filter-gender-girl-icon"></i>
+					</label>
+				</div>
+
+				<!--Кнопка поиска-->
+				<div class="search-filter-button">
+					<input id="submit-filters" type="submit" value="">
+					<div>
+						<label for="submit-filters">Подобрать подарок
+							<span class="filter-for">девочке</span>
+							<span class="filter-date">на день знаний</span>
+						</label>
+					</div>
+				</div>
+
+				<!--Блоки фильтров-->
+				<div class="fast-filter-blocks">
+					<!--Для кого предназначен подарок-->
+					<div class="filter-block">
+						<header class="type_1">
+							Для кого предназначен подарок
+						</header>
+						<input type="radio" id="lubimomu">
+						<label for="lubimomu">Любимому</label>
+						<input type="radio" id="suprugu">
+						<label for="suprugu">Супругу</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Брату</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Папе</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Другу</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Коллеге</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Женщине</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Жене</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Любимой</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Подруге</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Сестре</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Маме</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Бабушке</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Дедушке</label>
+						<footer>
+							<i class="filter-minus-icon"></i>
+						</footer>
+					</div>
+
+					<!--Увлечения-->
+					<div class="filter-block">
+						<header class="type_2">
+							Увлечения
+						</header>
+						<input type="checkbox" id="riboku">
+						<label for="riboku">Рыбаку</label>
+						<input type="checkbox" id="autolubitelu">
+						<label for="autolubitelu">Автолюбителю</label>
+						<input type="checkbox" id="bratu">
+						<label for="bratu">Программисту</label>
+						<input type="checkbox" id="bratu">
+						<label for="bratu">Футболисту</label>
+						<input type="checkbox" id="bratu">
+						<label for="bratu">Дизайнеру</label>
+						<input type="checkbox" id="bratu">
+						<label for="bratu">Гитаристу</label>
+						<input type="checkbox" id="bratu">
+						<footer>
+							<i class="filter-plus-icon"></i>
+						</footer>
+					</div>
+
+					<!--Профессии-->
+					<div class="filter-block">
+						<header class="type_1">
+							Увлечения
+						</header>
+						<input type="radio" id="ychitel">
+						<label for="ychitel">Учитель</label>
+						<input type="radio" id="autolubitelu">
+						<label for="autolubitelu">Судья</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Летчик</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Фотограф</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Электрик</label>
+						<input type="radio" id="bratu">
+						<label for="bratu">Тренер</label>
+						<input type="radio" id="bratu">
+						<footer>
+							<i class="filter-plus-icon"></i>
+						</footer>
+					</div>
+
+					<!--Повод-->
+					<div class="filter-block">
+						<header class="type_3">
+							Повод
+						</header>
+						<input type="checkbox" id="ychitel">
+						<label for="ychitel">День рождения</label>
+						<input type="checkbox" id="autolubitelu">
+						<label for="autolubitelu">Свадьба</label>
+						<input type="checkbox" id="bratu">
+						<label for="bratu">Женский день</label>
+						<input type="checkbox" id="bratu">
+						<label for="bratu">День знаний</label>
+						<input type="checkbox" id="bratu">
+						<label for="bratu">День народного единства</label>
+						<input type="checkbox" id="bratu">
+						<label for="bratu">Новый год</label>
+						<input type="checkbox" id="bratu">
+						<footer>
+							<i class="filter-plus-icon"></i>
+						</footer>
+					</div>
+				</div>
+
+				<div class="happy-date-filter">
+					<i class="prev-day"></i>
+					<div class="day active-day">
+						1 <br>сетнября
+					</div>
+					<div class="day">
+						13 <br>сетнября
+					</div>
+					<div class="day">
+						7 <br>ноября
+					</div>
+					<i class="next-day"></i>
+				</div>
+
+			</form>
+			<div class="both"></div>
+		</div>
+	</div>
 		
 		
-<!-- Main Content -->
-		<div class="main-content">
+<!-- Main Content --> <!--Up to 30px-->
+		<div class="main-content" style="margin-top: -30px">
 			<section class="mid-page">
 		<!-- Спойлер: Подарки к празднику -->
-			<div class="spoiler fast-search-section">			
+			<div class="spoiler fast-search-section" style="display: none">
 					<div class="spoiler-content">
 						<form name="fast-search" class="fast-search fast-search-inner">
 							<select name="select">
@@ -301,7 +467,7 @@
 			
 			<div class="content">
 				<aside class="main-aside">
-					<div class="category">
+					<div style="display: none" class="category">
 						<header>Категории подарков</header>
 						<nav>
 						<a href="#"><span>Интерьер</span></a>
@@ -334,8 +500,8 @@
 						<a href="#">Фартуки, прихватки, полотенца</a>
 					</nav>
 					</div>
-					
-					<div class="filters">
+					<!--UP to 50px-->
+					<div style="margin-top: -50px" class="filters">
 						<header>
 							<span>Фильтр подарков</span> 
 							<i class="inner-circle"></i>
@@ -347,6 +513,9 @@
 								<span class="filter-name">Цена подарка</span>
 								<br/>
 								<input type="range">
+								<input type="number" id="numStart" value="0">
+								<input type="number" value="7500">
+
 							</div>
 
 							<div class="category type-of-gift">
