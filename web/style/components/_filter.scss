@@ -72,7 +72,7 @@
       font-weight: 500;
     }
 
-    > input {
+    > input[type=range] {
       margin-left: 8px;
 
       width: 232px;
@@ -83,6 +83,40 @@
       display: block;
       min-height: 43px;
       outline: none;
+    }
+
+    input[type=number] {
+      @include background-image(linear-gradient(to top, #b86f5f 0%, #cd9176 100%));
+
+      padding: 0 5px;
+
+      width: 17%;
+      height: 20px;
+
+      border: none;
+
+      background-color: #ae8777;
+      border-radius: 10px;
+      box-shadow: 0 1px 1px #aea5a4;
+      color: #fff;
+      display: inline-block;
+      font-size: em(12px);
+      outline: none;
+      position: relative;
+    }
+
+    input[type=number]:after {
+      top: -3px;
+      left: 2px;
+
+      width: 13px;
+      height: 6px;
+
+      background: url("../images/last-range-input.png") no-repeat;
+
+      content: '';
+      display: block;
+      position: absolute;
     }
 
     input::-webkit-slider-thumb {
