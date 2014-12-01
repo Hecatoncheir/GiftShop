@@ -285,3 +285,22 @@
   @extend .filter-gender;
   background-position: -324px 0;
 }
+
+.filter-radio {
+  background: url("../images/filter-radio.png") no-repeat;
+  width: 16px;
+  height: 15px;
+}
+
+.filter-plus-icon {
+  background: url("../images/open_fast_filter/minus-plus-icon.png")no-repeat;
+  width: 30px;
+  height: 28px;
+  display: block;
+  background-position: left;
+}
+
+.filter-minus-icon {
+  @extend .filter-plus-icon;
+  background-position: right;
+}

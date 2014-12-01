@@ -55,7 +55,7 @@
   margin-bottom: 5px;
   border-top: 1px solid #dad3d5;
   border-bottom: 1px solid #dad3d5;
-  padding: 10px 40px 20px 90px;
+  padding: 10px 40px 50px 90px;
   position: relative;
   top: -30px;
 
@@ -96,6 +96,119 @@
     .filter-date {
       color: #a46a44;
     }
+  }
+
+//  Блоки фильтров
+  .fast-filter-blocks {
+    clear: both;
+
+    form {
+      margin-bottom: 30px;
+    }
+
+    .filter-block {
+      display: block;
+      float: left;
+      width: 241px;
+      background: url("../images/open_fast_filter/background.png") repeat-y center top;
+      margin-right: 20px;
+
+      label {
+        clear: left;
+        float: left;
+        font-family: pf_agora_sans_pro_Medium_Italic;
+        font-size: em(15px);
+        font-style: italic;
+        color: #b08a7c !important;
+        margin: 0 8px;
+        margin-top: 5px;
+        margin-bottom:2px;
+      }
+
+      label:before {
+        content: '';
+        display: inline-block;
+        background: url("../images/filter-radio.png") no-repeat;
+        width: 16px;
+        height: 15px;
+        margin: 0 14px 0 6px;
+      }
+
+      input[type=radio]:checked + label:before {
+        background-position: bottom !important;
+      }
+
+      input[type=radio]:checked + label {
+        color: #9c918c !important;
+      }
+
+      input[type=checkbox] {
+        display: none;
+      }
+
+      input[type=checkbox]:checked +label {
+        color: #9c918c !important;
+      }
+
+      input[type=checkbox] + label:before {
+        color: #9c918c !important;
+        width: 17px;
+        height: 17px;
+        background: url("../images/filter-checkbox.png") no-repeat !important;
+      }
+
+      input[type=checkbox]:checked + label:before {
+        background-position: bottom !important;
+      }
+
+
+      header {
+        text-align: center;
+        font-style: italic;
+        font-family: pf_agora_sans_pro_Medium_Italic;
+        min-height: 10px;
+        font-size: em(14px);
+        color: #fff;
+        padding: 24px 5px 10px 5px;
+        margin-bottom: 16px;
+      }
+
+      .type_1 {
+        background: url("../images/open_fast_filter/top_type_1.png") no-repeat top center;
+      }
+
+      .type_2 {
+        background: url("../images/open_fast_filter/top_type_2.png") no-repeat top center;
+        height: 36px;
+        position: relative;
+        z-index: 9;
+        margin-bottom: -4px;
+      }
+
+      .type_3 {
+        background: url("../images/open_fast_filter/top_type_3.png") no-repeat top center;
+        height: 30px;
+        margin-bottom: -1px;
+      }
+
+      footer {
+        background: url("../images/open_fast_filter/footer.png") no-repeat bottom center;
+        display: block;
+        height: 20px;
+        padding-top: 22px;
+        position: relative;
+
+        i {
+          position: absolute;
+          bottom: -30px;
+          left: 100px;
+          cursor: pointer;
+        }
+
+      }
+
+    }
+
   }
 
 
