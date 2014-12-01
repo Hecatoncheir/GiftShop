@@ -259,48 +259,87 @@
 }
 
 .filter-gender {
-  display: inline-block;
   width: 108px;
   height: 44px;
+
   background: url("../images/icons/gender.png") no-repeat;
+
+  display: inline-block;
 }
 
 .filter-gender-man-icon {
   @extend .filter-gender;
+
   background-position: 0 0;
 }
 
 .filter-gender-woman-icon {
   @extend .filter-gender;
+
   background-position: -108px 0;
 }
 
 .filter-gender-boy-icon {
   @extend .filter-gender;
-  background-position: -216px 0;
 
+  background-position: -216px 0;
 }
 
 .filter-gender-girl-icon {
   @extend .filter-gender;
+
   background-position: -324px 0;
 }
 
 .filter-radio {
-  background: url("../images/filter-radio.png") no-repeat;
   width: 16px;
   height: 15px;
+
+  background: url("../images/filter-radio.png") no-repeat;
 }
 
 .filter-plus-icon {
-  background: url("../images/open_fast_filter/minus-plus-icon.png")no-repeat;
   width: 30px;
   height: 28px;
-  display: block;
+
+  background: url("../images/open_fast_filter/minus-plus-icon.png")no-repeat;
+
   background-position: left;
+  display: block;
 }
 
 .filter-minus-icon {
   @extend .filter-plus-icon;
+
   background-position: right;
+}
+
+.prev-day {
+  width: 30px;
+  height: 28px;
+
+  background: url("../images/open_fast_filter/open-filters-arrow.png");
+
+  display: block;
+}
+
+.next-day {
+  @extend .prev-day;
+
+  background: url("../images/open_fast_filter/open-filters-arrow_down.png") no-repeat;
+}
+
+.day {
+  width: 76px;
+  height: 55px;
+
+  background: url("../images/open_fast_filter/day_background.png") no-repeat;
+
+  background-position: right;
+  display: block;
+}
+
+.active-day {
+  background-position: left;
+  color: #fff !important;
 }

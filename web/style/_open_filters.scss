@@ -50,14 +50,18 @@
 
 
 .openFilters {
-  clear: both;
-  background: #f3eeed;
-  margin-bottom: 5px;
-  border-top: 1px solid #dad3d5;
-  border-bottom: 1px solid #dad3d5;
-  padding: 10px 40px 50px 90px;
-  position: relative;
   top: -30px;
+
+  padding: 10px 40px 50px 90px;
+
+  margin-bottom: 5px;
+
+  background: #f3eeed;
+
+  border-bottom: 1px solid #dad3d5;
+  border-top: 1px solid #dad3d5;
+  clear: both;
+  position: relative;
 
   .filters-gender-icons {
     float: left;
@@ -67,27 +71,30 @@
     cursor: pointer;
   }
 
-  input[type=radio]{
+  input[type=radio] {
     display: none;
   }
 
-//  input[type=radio]:checked + .filter-gender-man-icon {
-//    background-position: 0 -44px !important;
-//  }
+  //  input[type=radio]:checked + .filter-gender-man-icon {
+  //    background-position: 0 -44px !important;
+  //  }
 
-  input[type=submit]{
+  input[type=submit] {
     display: none;
   }
 
   .search-filter-button {
     @extend .search-filter-submit;
-    font-family: pf_agora_sans_pro_Medium_Italic;
-    font-style: italic;
-    font-size: em(14px);
-    float: left;
-    color: #867a78;
+
     margin-top: 10px;
     margin-left: 10px;
+
+    font-family: pf_agora_sans_pro_Medium_Italic;
+    font-style: italic;
+
+    color: #867a78;
+    float: left;
+    font-size: em(14px);
 
     .filter-for {
       color: #c38565;
@@ -98,7 +105,7 @@
     }
   }
 
-//  Блоки фильтров
+  //  Блоки фильтров
   .fast-filter-blocks {
     clear: both;
 
@@ -107,31 +114,40 @@
     }
 
     .filter-block {
+      margin-right: 40px;
+
+      width: 241px;
+
+      background: url("../images/open_fast_filter/background.png") repeat-y center top;
+
       display: block;
       float: left;
-      width: 241px;
-      background: url("../images/open_fast_filter/background.png") repeat-y center top;
-      margin-right: 20px;
 
       label {
-        clear: left;
-        float: left;
-        font-family: pf_agora_sans_pro_Medium_Italic;
-        font-size: em(15px);
-        font-style: italic;
-        color: #b08a7c !important;
         margin: 0 8px;
+
         margin-top: 5px;
-        margin-bottom:2px;
+        margin-bottom: 2px;
+
+        font-family: pf_agora_sans_pro_Medium_Italic;
+        font-style: italic;
+
+        clear: left;
+        color: #b08a7c !important;
+        float: left;
+        font-size: em(15px);
       }
 
       label:before {
-        content: '';
-        display: inline-block;
-        background: url("../images/filter-radio.png") no-repeat;
+        margin: 0 14px 0 6px;
+
         width: 16px;
         height: 15px;
-        margin: 0 14px 0 6px;
+
+        background: url("../images/filter-radio.png") no-repeat;
+
+        content: '';
+        display: inline-block;
       }
 
       input[type=radio]:checked + label:before {
@@ -146,15 +162,17 @@
         display: none;
       }
 
-      input[type=checkbox]:checked +label {
+      input[type=checkbox]:checked + label {
         color: #9c918c !important;
       }
 
       input[type=checkbox] + label:before {
-        color: #9c918c !important;
         width: 17px;
         height: 17px;
+
         background: url("../images/filter-checkbox.png") no-repeat !important;
+
+        color: #9c918c !important;
       }
 
       input[type=checkbox]:checked + label:before {
@@ -163,14 +181,17 @@
 
 
       header {
-        text-align: center;
-        font-style: italic;
-        font-family: pf_agora_sans_pro_Medium_Italic;
-        min-height: 10px;
-        font-size: em(14px);
-        color: #fff;
         padding: 24px 5px 10px 5px;
+
         margin-bottom: 16px;
+
+        font-family: pf_agora_sans_pro_Medium_Italic;
+        font-style: italic;
+
+        color: #fff;
+        font-size: em(14px);
+        min-height: 10px;
+        text-align: center;
       }
 
       .type_1 {
@@ -178,38 +199,77 @@
       }
 
       .type_2 {
-        background: url("../images/open_fast_filter/top_type_2.png") no-repeat top center;
-        height: 36px;
-        position: relative;
-        z-index: 9;
         margin-bottom: -4px;
+
+        height: 36px;
+
+        background: url("../images/open_fast_filter/top_type_2.png") no-repeat top center;
+
+        position: relative;
       }
 
       .type_3 {
-        background: url("../images/open_fast_filter/top_type_3.png") no-repeat top center;
-        height: 30px;
         margin-bottom: -1px;
+
+        height: 30px;
+
+        background: url("../images/open_fast_filter/top_type_3.png") no-repeat top center;
       }
 
       footer {
-        background: url("../images/open_fast_filter/footer.png") no-repeat bottom center;
-        display: block;
-        height: 20px;
         padding-top: 22px;
+
+        height: 20px;
+
+        background: url("../images/open_fast_filter/footer.png") no-repeat bottom center;
+
+        display: block;
         position: relative;
 
         i {
-          position: absolute;
-          bottom: -30px;
           left: 100px;
+          bottom: -30px;
+
           cursor: pointer;
+          position: absolute;
         }
-
       }
-
     }
-
   }
 
+  .happy-date-filter {
+    margin-top: -24px;
+    margin-right: 60px;
 
+    width: 76px;
+
+    float: right;
+    position: relative;
+
+    i {
+      margin-left: 20px;
+
+      clear: both;
+      cursor: pointer;
+    }
+
+    .day {
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      padding-top: 20px !important;
+
+      font-family: pf_agora_sans_pro_light;
+
+      clear: left;
+      color: #8b716a;
+      float: left;
+      font-size: em(14px);
+      text-align: center;
+    }
+  }
+
+  .active-day {
+    color: #fff;
+  }
 }
