@@ -254,21 +254,65 @@
 				</hgroup>
 				
 					<div class="filter-button">
-						<div class="button-border">
-							<div class="button-inner">
-								<span class="button-text">Настроить фильтр</span>
+							<div class="button-inner must-button active">
+								<div>
+									<span class="button-text">Настроить фильтр</span>
+								</div>
 							</div>
-						</div>
 					</div>
 			</div>
 		</div>
+
+
+	<!--Open Filters-->
+	<div class="openFilters">
+		<div class="mid-page">
+			<form name="filters">
+				<!--Иконки фильтра-->
+				<div class="filters-gender-icons">
+					<input name="" id="gender_1" type="radio">
+					<label for="gender_1">
+						<i class="filter-gender-man-icon"></i>
+					</label>
+					<input name="" id="gender_2" type="radio">
+					<label for="gender_2">
+						<i class="filter-gender-woman-icon"></i>
+					</label>
+					<input name="" id="gender_3" type="radio">
+					<label for="gender_2">
+						<i class="filter-gender-boy-icon"></i>
+					</label>
+					<input name="" id="gender_3" type="radio">
+					<label for="gender_2">
+						<i class="filter-gender-girl-icon"></i>
+					</label>
+				</div>
+				<!--Кнопка поиска-->
+				<div class="search-filter-button">
+					<input id="submit-filters" type="submit" value="">
+					<div>
+						<label for="submit-filters">Подобрать подарок
+							<span class="filter-for">девочке</span>
+							<span class="filter-date">на день знаний</span>
+						</label>
+					</div>
+				</div>
+
+				<div class="fast-filter-block">
+
+				</div>
+
+			</form>
+			<div class="both"></div>
+		</div>
+	</div>
 		
 		
 <!-- Main Content -->
-		<div class="main-content">
+		<div class="main-content" style="margin-top: -30px">
 			<section class="mid-page">
 		<!-- Спойлер: Подарки к празднику -->
-			<div class="spoiler fast-search-section">			
+			<div class="spoiler fast-search-section" style="display: none">
 					<div class="spoiler-content">
 						<form name="fast-search" class="fast-search fast-search-inner">
 							<select name="select">
@@ -301,7 +345,7 @@
 			
 			<div class="content">
 				<aside class="main-aside">
-					<div class="category">
+					<div style="display: none" class="category">
 						<header>Категории подарков</header>
 						<nav>
 						<a href="#"><span>Интерьер</span></a>
@@ -335,7 +379,7 @@
 					</nav>
 					</div>
 					
-					<div class="filters">
+					<div style="margin-top: -50px" class="filters">
 						<header>
 							<span>Фильтр подарков</span> 
 							<i class="inner-circle"></i>

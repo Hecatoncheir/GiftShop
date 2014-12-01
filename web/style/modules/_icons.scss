@@ -257,3 +257,31 @@
 
   display: inline-block;
 }
+
+.filter-gender {
+  display: inline-block;
+  width: 108px;
+  height: 44px;
+  background: url("../images/icons/gender.png") no-repeat;
+}
+
+.filter-gender-man-icon {
+  @extend .filter-gender;
+  background-position: 0 0;
+}
+
+.filter-gender-woman-icon {
+  @extend .filter-gender;
+  background-position: -108px 0;
+}
+
+.filter-gender-boy-icon {
+  @extend .filter-gender;
+  background-position: -216px 0;
+
+}
+
+.filter-gender-girl-icon {
+  @extend .filter-gender;
+  background-position: -324px 0;
+}
